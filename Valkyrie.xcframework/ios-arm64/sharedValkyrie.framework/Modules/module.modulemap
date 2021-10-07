@@ -1,0 +1,6 @@
+framework module sharedValkyrie {
+    umbrella header "sharedValkyrie.h"
+
+    export *
+    module * { export * }
+}
