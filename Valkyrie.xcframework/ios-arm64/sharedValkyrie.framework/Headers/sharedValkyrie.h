@@ -6,9 +6,9 @@
 #import <Foundation/NSString.h>
 #import <Foundation/NSValue.h>
 
-@class SharedValkyrieKotlinUnit, SharedValkyrieKermitKermit, SharedValkyrieKotlinThrowable, SharedValkyrieKermitSeverity, SharedValkyrieKermitLogger, SharedValkyrieActivity, SharedValkyrieActivitiesRequestCompanion, SharedValkyrieActivitiesRequest, SharedValkyrieMetadata, SharedValkyrieRequestContext, SharedValkyrieActivityCompanion, SharedValkyrieActivityResponseCompanion, SharedValkyrieActivityResponse, SharedValkyrieLink, SharedValkyrieCatalogItemCompanion, SharedValkyrieCatalogItem, SharedValkyrieLinkCompanion, SharedValkyrieMetadataCompanion, SharedValkyrieKotlinx_serialization_jsonJsonElement, SharedValkyrieProfileCompanion, SharedValkyrieProfile, SharedValkyrieRequestContextCompanion, SharedValkyrieKotlinEnumCompanion, SharedValkyrieKotlinEnum<E>, SharedValkyrieApiDispatcher, SharedValkyrieKotlinArray<T>, SharedValkyrieApiSettings, SharedValkyrieDatabaseHelper, SharedValkyrieKtor_client_coreHttpClient, SharedValkyrieRequestPaths, SharedValkyrieKotlinx_coroutines_coreCoroutineDispatcher, SharedValkyrieShared_connections, SharedValkyrieSharedDatabaseCompanion, SharedValkyrieRuntimeQuery<__covariant RowType>, SharedValkyrieShared_logs, SharedValkyrieKoin_coreScope, SharedValkyrieKoin_coreParametersHolder, SharedValkyrieKotlinLazyThreadSafetyMode, SharedValkyrieKoin_coreModule, SharedValkyrieKoin_coreLogger, SharedValkyrieKoin_coreInstanceRegistry, SharedValkyrieKoin_corePropertyRegistry, SharedValkyrieKoin_coreScopeRegistry, SharedValkyrieKoin_coreKoin, SharedValkyrieOACApi, SharedValkyrieKoin_coreKoinApplication, NSUserDefaults, SharedValkyrieKotlinException, SharedValkyrieKotlinRuntimeException, SharedValkyrieKotlinIllegalStateException, SharedValkyrieKotlinx_serialization_jsonJsonElementCompanion, SharedValkyrieKtor_client_coreHttpClientEngineConfig, SharedValkyrieKtor_client_coreHttpClientConfig<T>, SharedValkyrieKtor_client_coreHttpRequestBuilder, SharedValkyrieKtor_client_coreHttpClientCall, SharedValkyrieKtor_client_coreHttpReceivePipeline, SharedValkyrieKtor_client_coreHttpRequestPipeline, SharedValkyrieKtor_client_coreHttpResponsePipeline, SharedValkyrieKtor_client_coreHttpSendPipeline, SharedValkyrieRuntimeTransacterTransaction, SharedValkyrieKotlinAbstractCoroutineContextElement, SharedValkyrieKotlinx_coroutines_coreCoroutineDispatcherKey, SharedValkyrieKoin_coreParametersHolderCompanion, SharedValkyrieKoin_coreInstanceFactory<T>, SharedValkyrieKotlinPair<__covariant A, __covariant B>, SharedValkyrieKoin_coreScopeDSL, SharedValkyrieKoin_coreSingleInstanceFactory<T>, SharedValkyrieKoin_coreLevel, SharedValkyrieKoin_coreScopeRegistryCompanion, SharedValkyrieKoin_coreKoinApplicationCompanion, SharedValkyrieKotlinx_serialization_coreSerializersModule, SharedValkyrieKotlinx_serialization_coreSerialKind, SharedValkyrieKotlinNothing, SharedValkyrieKtor_client_coreHttpRequestData, SharedValkyrieKtor_client_coreHttpResponseData, SharedValkyrieKtor_client_coreProxyConfig, SharedValkyrieKtor_httpHeadersBuilder, SharedValkyrieKtor_client_coreHttpRequestBuilderCompanion, SharedValkyrieKtor_httpURLBuilder, SharedValkyrieKtor_httpHttpMethod, SharedValkyrieKtor_client_coreHttpClientCallCompanion, SharedValkyrieKtor_client_coreTypeInfo, SharedValkyrieKtor_client_coreHttpResponse, SharedValkyrieKtor_utilsAttributeKey<T>, SharedValkyrieKtor_utilsPipelinePhase, SharedValkyrieKtor_utilsPipeline<TSubject, TContext>, SharedValkyrieKtor_client_coreHttpReceivePipelinePhases, SharedValkyrieKtor_client_coreHttpRequestPipelinePhases, SharedValkyrieKtor_client_coreHttpResponsePipelinePhases, SharedValkyrieKtor_client_coreHttpResponseContainer, SharedValkyrieKtor_client_coreHttpSendPipelinePhases, SharedValkyrieKotlinByteArray, SharedValkyrieKotlinAbstractCoroutineContextKey<B, E>, SharedValkyrieKoin_coreBeanDefinition<T>, SharedValkyrieKoin_coreInstanceFactoryCompanion, SharedValkyrieKoin_coreInstanceContext, SharedValkyrieKtor_httpUrl, SharedValkyrieKtor_httpOutgoingContent, SharedValkyrieKtor_httpHttpStatusCode, SharedValkyrieKtor_utilsGMTDate, SharedValkyrieKtor_httpHttpProtocolVersion, SharedValkyrieKtor_utilsStringValuesBuilder, SharedValkyrieKtor_httpURLProtocol, SharedValkyrieKtor_httpParametersBuilder, SharedValkyrieKtor_httpURLBuilderCompanion, SharedValkyrieKotlinCancellationException, SharedValkyrieKtor_httpHttpMethodCompanion, SharedValkyrieKtor_ioMemory, SharedValkyrieKtor_ioIoBuffer, SharedValkyrieKtor_ioByteReadPacket, SharedValkyrieKtor_ioByteOrder, SharedValkyrieKotlinByteIterator, SharedValkyrieKoin_coreKind, SharedValkyrieKoin_coreCallbacks<T>, SharedValkyrieKtor_httpUrlCompanion, SharedValkyrieKtor_httpContentType, SharedValkyrieKtor_httpHttpStatusCodeCompanion, SharedValkyrieKtor_utilsGMTDateCompanion, SharedValkyrieKtor_utilsWeekDay, SharedValkyrieKtor_utilsMonth, SharedValkyrieKtor_httpHttpProtocolVersionCompanion, SharedValkyrieKtor_httpURLProtocolCompanion, SharedValkyrieKtor_httpUrlEncodingOption, SharedValkyrieKtor_ioMemoryCompanion, SharedValkyrieKtor_ioBufferCompanion, SharedValkyrieKtor_ioBuffer, SharedValkyrieKtor_ioChunkBuffer, SharedValkyrieKtor_ioChunkBufferCompanion, SharedValkyrieKotlinCharArray, SharedValkyrieKtor_ioIoBufferCompanion, SharedValkyrieKtor_ioAbstractInputCompanion, SharedValkyrieKtor_ioAbstractInput, SharedValkyrieKtor_ioByteReadPacketBaseCompanion, SharedValkyrieKtor_ioByteReadPacketBase, SharedValkyrieKtor_ioByteReadPacketPlatformBase, SharedValkyrieKtor_ioByteReadPacketCompanion, SharedValkyrieKtor_ioByteOrderCompanion, SharedValkyrieKotlinKTypeProjection, SharedValkyrieKtor_httpHeaderValueParam, SharedValkyrieKtor_httpHeaderValueWithParametersCompanion, SharedValkyrieKtor_httpHeaderValueWithParameters, SharedValkyrieKtor_httpContentTypeCompanion, SharedValkyrieKtor_utilsWeekDayCompanion, SharedValkyrieKtor_utilsMonthCompanion, SharedValkyrieKotlinx_coroutines_coreAtomicDesc, SharedValkyrieKotlinx_coroutines_coreLockFreeLinkedListNodePrepareOp, SharedValkyrieKotlinCharIterator, SharedValkyrieKotlinKVariance, SharedValkyrieKotlinKTypeProjectionCompanion, SharedValkyrieKotlinx_coroutines_coreAtomicOp<__contravariant T>, SharedValkyrieKotlinx_coroutines_coreOpDescriptor, SharedValkyrieKotlinx_coroutines_coreLockFreeLinkedListNode, SharedValkyrieKotlinx_coroutines_coreLockFreeLinkedListNodeAbstractAtomicDesc, SharedValkyrieKotlinx_coroutines_coreLockFreeLinkedListNodeAddLastDesc<T>, SharedValkyrieKotlinx_coroutines_coreLockFreeLinkedListNodeRemoveFirstDesc<T>;
+@class SharedValkyrieKotlinUnit, SharedValkyrieKermitKermit, SharedValkyrieKotlinThrowable, SharedValkyrieKermitSeverity, SharedValkyrieKermitLogger, SharedValkyrieActivity, SharedValkyrieActivitiesRequestCompanion, SharedValkyrieActivitiesRequest, SharedValkyrieMetadata, SharedValkyrieRequestContext, SharedValkyrieActivityCompanion, SharedValkyrieActivityResponseCompanion, SharedValkyrieActivityResponse, SharedValkyrieCaptionCompanion, SharedValkyrieCaption, SharedValkyrieLink, SharedValkyrieCatalogItemCompanion, SharedValkyrieCatalogItem, SharedValkyrieFormula, SharedValkyrieColumnSort, SharedValkyrieColumnHeading, SharedValkyrieColumnCompanion, SharedValkyrieColumn, SharedValkyrieColumnHeadingCompanion, SharedValkyrieColumnSortCompanion, SharedValkyrieCriteriaCompanion, SharedValkyrieCriteria, SharedValkyrieDataSourceCompanion, SharedValkyrieDataSource, SharedValkyrieDataState<__covariant T>, SharedValkyrieViewSuggestInput, SharedValkyrieDataVisualizationCompanion, SharedValkyrieDataVisualization, SharedValkyrieType, SharedValkyrieExprCompanion, SharedValkyrieExpr, SharedValkyrieFilterByColumnsCompanion, SharedValkyrieFilterByColumns, SharedValkyrieFilterControlChoicesChild, SharedValkyrieFilterControlChoicesCompanion, SharedValkyrieFilterControlChoices, SharedValkyrieFilterControlChoicesChildCompanion, SharedValkyrieFilterControlCollectionsChild, SharedValkyrieFilterControlCollectionsCompanion, SharedValkyrieFilterControlCollections, SharedValkyrieFilterControls, SharedValkyrieFilterControlCollectionsChildCompanion, SharedValkyrieSettings, SharedValkyrieFilterControlConfigCompanion, SharedValkyrieFilterControlConfig, SharedValkyrieFilterControlDefaultValuesCompanion, SharedValkyrieFilterControlDefaultValues, SharedValkyrieFilterControlSourceCompanion, SharedValkyrieFilterControlSource, SharedValkyrieFilterControlsChild, SharedValkyrieFilterControlsCompanion, SharedValkyrieFilterOperator, SharedValkyrieFilterUIControl, SharedValkyrieFilterControlsChildCompanion, SharedValkyrieFilterOperatorCompanion, SharedValkyrieFilterUIControlCompanion, SharedValkyrieFormulaCompanion, SharedValkyrieHeaderCompanion, SharedValkyrieHeader, SharedValkyrieLinkCompanion, SharedValkyrieProjectConfig, SharedValkyrieMajelDataRequestCompanion, SharedValkyrieMajelDataRequest, SharedValkyrieMajelDataResponseCompanion, SharedValkyrieMajelDataResponse, SharedValkyrieMetadataCompanion, SharedValkyrieKotlinx_serialization_jsonJsonElement, SharedValkyrieProfileCompanion, SharedValkyrieProfile, SharedValkyrieProjectConfigCompanion, SharedValkyrieRequestContextCompanion, SharedValkyrieSettingsCompanion, SharedValkyrieKotlinEnumCompanion, SharedValkyrieKotlinEnum<E>, SharedValkyrieTypeCompanion, SharedValkyrieKotlinArray<T>, SharedValkyrieViewSuggestInputCompanion, SharedValkyrieApiDispatcher, SharedValkyrieApiSettings, SharedValkyrieKtor_client_coreHttpClient, SharedValkyrieRequestPaths, SharedValkyrieKotlinx_coroutines_coreCoroutineDispatcher, SharedValkyrieShared_connections, SharedValkyrieSharedDatabaseCompanion, SharedValkyrieRuntimeQuery<__covariant RowType>, SharedValkyrieShared_logs, SharedValkyrieKoin_coreKoin, SharedValkyrieMainScope, SharedValkyrieBaseViewModel, SharedValkyrieKoin_coreScope, SharedValkyrieKoin_coreParametersHolder, SharedValkyrieKotlinLazyThreadSafetyMode, SharedValkyrieKoin_coreModule, SharedValkyrieKoin_coreLogger, SharedValkyrieKoin_coreInstanceRegistry, SharedValkyrieKoin_corePropertyRegistry, SharedValkyrieKoin_coreScopeRegistry, SharedValkyrieOACApi, SharedValkyrieKtor_httpUrl, SharedValkyrieKoin_coreKoinApplication, NSUserDefaults, SharedValkyrieKotlinException, SharedValkyrieKotlinRuntimeException, SharedValkyrieKotlinIllegalStateException, SharedValkyrieKotlinx_serialization_jsonJsonElementCompanion, SharedValkyrieKotlinx_serialization_coreSerializersModule, SharedValkyrieKotlinx_serialization_coreSerialKind, SharedValkyrieKotlinNothing, SharedValkyrieKtor_client_coreHttpClientEngineConfig, SharedValkyrieKtor_client_coreHttpClientConfig<T>, SharedValkyrieKtor_client_coreHttpRequestBuilder, SharedValkyrieKtor_client_coreHttpClientCall, SharedValkyrieKtor_client_coreHttpReceivePipeline, SharedValkyrieKtor_client_coreHttpRequestPipeline, SharedValkyrieKtor_client_coreHttpResponsePipeline, SharedValkyrieKtor_client_coreHttpSendPipeline, SharedValkyrieRuntimeTransacterTransaction, SharedValkyrieKotlinAbstractCoroutineContextElement, SharedValkyrieKotlinx_coroutines_coreCoroutineDispatcherKey, SharedValkyrieKoin_coreParametersHolderCompanion, SharedValkyrieKoin_coreInstanceFactory<T>, SharedValkyrieKotlinPair<__covariant A, __covariant B>, SharedValkyrieKoin_coreScopeDSL, SharedValkyrieKoin_coreSingleInstanceFactory<T>, SharedValkyrieKoin_coreLevel, SharedValkyrieKoin_coreScopeRegistryCompanion, SharedValkyrieKtor_httpURLProtocol, SharedValkyrieKtor_httpUrlCompanion, SharedValkyrieKoin_coreKoinApplicationCompanion, SharedValkyrieKtor_client_coreHttpRequestData, SharedValkyrieKtor_client_coreHttpResponseData, SharedValkyrieKtor_client_coreProxyConfig, SharedValkyrieKtor_httpHeadersBuilder, SharedValkyrieKtor_client_coreHttpRequestBuilderCompanion, SharedValkyrieKtor_httpURLBuilder, SharedValkyrieKtor_httpHttpMethod, SharedValkyrieKtor_client_coreHttpClientCallCompanion, SharedValkyrieKtor_client_coreTypeInfo, SharedValkyrieKtor_client_coreHttpResponse, SharedValkyrieKtor_utilsAttributeKey<T>, SharedValkyrieKtor_utilsPipelinePhase, SharedValkyrieKtor_utilsPipeline<TSubject, TContext>, SharedValkyrieKtor_client_coreHttpReceivePipelinePhases, SharedValkyrieKtor_client_coreHttpRequestPipelinePhases, SharedValkyrieKtor_client_coreHttpResponsePipelinePhases, SharedValkyrieKtor_client_coreHttpResponseContainer, SharedValkyrieKtor_client_coreHttpSendPipelinePhases, SharedValkyrieKotlinByteArray, SharedValkyrieKotlinAbstractCoroutineContextKey<B, E>, SharedValkyrieKoin_coreBeanDefinition<T>, SharedValkyrieKoin_coreInstanceFactoryCompanion, SharedValkyrieKoin_coreInstanceContext, SharedValkyrieKtor_httpURLProtocolCompanion, SharedValkyrieKtor_httpUrlEncodingOption, SharedValkyrieKtor_httpOutgoingContent, SharedValkyrieKtor_httpHttpStatusCode, SharedValkyrieKtor_utilsGMTDate, SharedValkyrieKtor_httpHttpProtocolVersion, SharedValkyrieKtor_utilsStringValuesBuilder, SharedValkyrieKtor_httpParametersBuilder, SharedValkyrieKtor_httpURLBuilderCompanion, SharedValkyrieKotlinCancellationException, SharedValkyrieKtor_httpHttpMethodCompanion, SharedValkyrieKtor_ioMemory, SharedValkyrieKtor_ioIoBuffer, SharedValkyrieKtor_ioByteReadPacket, SharedValkyrieKtor_ioByteOrder, SharedValkyrieKotlinByteIterator, SharedValkyrieKoin_coreKind, SharedValkyrieKoin_coreCallbacks<T>, SharedValkyrieKtor_httpContentType, SharedValkyrieKtor_httpHttpStatusCodeCompanion, SharedValkyrieKtor_utilsGMTDateCompanion, SharedValkyrieKtor_utilsWeekDay, SharedValkyrieKtor_utilsMonth, SharedValkyrieKtor_httpHttpProtocolVersionCompanion, SharedValkyrieKtor_ioMemoryCompanion, SharedValkyrieKtor_ioBufferCompanion, SharedValkyrieKtor_ioBuffer, SharedValkyrieKtor_ioChunkBuffer, SharedValkyrieKtor_ioChunkBufferCompanion, SharedValkyrieKotlinCharArray, SharedValkyrieKtor_ioIoBufferCompanion, SharedValkyrieKtor_ioAbstractInputCompanion, SharedValkyrieKtor_ioAbstractInput, SharedValkyrieKtor_ioByteReadPacketBaseCompanion, SharedValkyrieKtor_ioByteReadPacketBase, SharedValkyrieKtor_ioByteReadPacketPlatformBase, SharedValkyrieKtor_ioByteReadPacketCompanion, SharedValkyrieKtor_ioByteOrderCompanion, SharedValkyrieKotlinKTypeProjection, SharedValkyrieKtor_httpHeaderValueParam, SharedValkyrieKtor_httpHeaderValueWithParametersCompanion, SharedValkyrieKtor_httpHeaderValueWithParameters, SharedValkyrieKtor_httpContentTypeCompanion, SharedValkyrieKtor_utilsWeekDayCompanion, SharedValkyrieKtor_utilsMonthCompanion, SharedValkyrieKotlinx_coroutines_coreAtomicDesc, SharedValkyrieKotlinx_coroutines_coreLockFreeLinkedListNodePrepareOp, SharedValkyrieKotlinCharIterator, SharedValkyrieKotlinKVariance, SharedValkyrieKotlinKTypeProjectionCompanion, SharedValkyrieKotlinx_coroutines_coreAtomicOp<__contravariant T>, SharedValkyrieKotlinx_coroutines_coreOpDescriptor, SharedValkyrieKotlinx_coroutines_coreLockFreeLinkedListNode, SharedValkyrieKotlinx_coroutines_coreLockFreeLinkedListNodeAbstractAtomicDesc, SharedValkyrieKotlinx_coroutines_coreLockFreeLinkedListNodeAddLastDesc<T>, SharedValkyrieKotlinx_coroutines_coreLockFreeLinkedListNodeRemoveFirstDesc<T>;
 
-@protocol SharedValkyrieKotlinx_coroutines_coreFlowCollector, SharedValkyrieKotlinx_coroutines_coreFlow, SharedValkyrieCloseable, SharedValkyrieKotlinCoroutineContext, SharedValkyrieKotlinx_coroutines_coreCoroutineScope, SharedValkyrieKotlinx_serialization_coreKSerializer, SharedValkyrieKotlinComparable, SharedValkyrieRuntimeSqlDriver, SharedValkyrieSharedQueries, SharedValkyrieRuntimeTransactionWithoutReturn, SharedValkyrieRuntimeTransactionWithReturn, SharedValkyrieRuntimeTransacter, SharedValkyrieSharedDatabase, SharedValkyrieRuntimeSqlDriverSchema, SharedValkyrieKoin_coreKoinScopeComponent, SharedValkyrieKoin_coreQualifier, SharedValkyrieKotlinKClass, SharedValkyrieKotlinLazy, SharedValkyrieAppInfo, SharedValkyrieKotlinCoroutineContextElement, SharedValkyrieKotlinCoroutineContextKey, SharedValkyrieKotlinx_serialization_coreEncoder, SharedValkyrieKotlinx_serialization_coreSerialDescriptor, SharedValkyrieKotlinx_serialization_coreSerializationStrategy, SharedValkyrieKotlinx_serialization_coreDecoder, SharedValkyrieKotlinx_serialization_coreDeserializationStrategy, SharedValkyrieKotlinIterator, SharedValkyrieKtor_ioCloseable, SharedValkyrieKtor_client_coreHttpClientEngine, SharedValkyrieKtor_client_coreHttpClientEngineCapability, SharedValkyrieKtor_utilsAttributes, SharedValkyrieRuntimeSqlPreparedStatement, SharedValkyrieRuntimeSqlCursor, SharedValkyrieRuntimeCloseable, SharedValkyrieKotlinContinuation, SharedValkyrieKotlinContinuationInterceptor, SharedValkyrieKotlinx_coroutines_coreRunnable, SharedValkyrieRuntimeTransactionCallbacks, SharedValkyrieRuntimeQueryListener, SharedValkyrieKoin_coreScopeCallback, SharedValkyrieKoin_coreKoinComponent, SharedValkyrieKotlinKDeclarationContainer, SharedValkyrieKotlinKAnnotatedElement, SharedValkyrieKotlinKClassifier, SharedValkyrieKotlinx_serialization_coreCompositeEncoder, SharedValkyrieKotlinAnnotation, SharedValkyrieKotlinx_serialization_coreCompositeDecoder, SharedValkyrieKtor_client_coreHttpClientFeature, SharedValkyrieKtor_httpHttpMessageBuilder, SharedValkyrieKotlinx_coroutines_coreJob, SharedValkyrieKtor_ioByteReadChannel, SharedValkyrieKtor_utilsTypeInfo, SharedValkyrieKtor_client_coreHttpRequest, SharedValkyrieKotlinSuspendFunction2, SharedValkyrieKotlinx_serialization_coreSerializersModuleCollector, SharedValkyrieKtor_httpHeaders, SharedValkyrieKtor_utilsStringValues, SharedValkyrieKotlinMapEntry, SharedValkyrieKotlinx_coroutines_coreChildHandle, SharedValkyrieKotlinx_coroutines_coreChildJob, SharedValkyrieKotlinx_coroutines_coreDisposableHandle, SharedValkyrieKotlinSequence, SharedValkyrieKotlinx_coroutines_coreSelectClause0, SharedValkyrieKtor_ioReadSession, SharedValkyrieKotlinSuspendFunction1, SharedValkyrieKotlinAppendable, SharedValkyrieKotlinKType, SharedValkyrieKtor_httpHttpMessage, SharedValkyrieKotlinFunction, SharedValkyrieKtor_httpParameters, SharedValkyrieKotlinx_coroutines_coreParentJob, SharedValkyrieKotlinx_coroutines_coreSelectInstance, SharedValkyrieKotlinSuspendFunction0, SharedValkyrieKtor_ioObjectPool, SharedValkyrieKtor_ioInput, SharedValkyrieKtor_ioOutput;
+@protocol SharedValkyrieKotlinx_coroutines_coreFlowCollector, SharedValkyrieKotlinx_coroutines_coreFlow, SharedValkyrieCloseable, SharedValkyrieKotlinCoroutineContext, SharedValkyrieKotlinx_coroutines_coreCoroutineScope, SharedValkyrieKotlinx_serialization_coreKSerializer, SharedValkyrieKotlinComparable, SharedValkyrieKotlinx_serialization_coreEncoder, SharedValkyrieKotlinx_serialization_coreSerialDescriptor, SharedValkyrieKotlinx_serialization_coreSerializationStrategy, SharedValkyrieKotlinx_serialization_coreDecoder, SharedValkyrieKotlinx_serialization_coreDeserializationStrategy, SharedValkyrieRuntimeSqlDriver, SharedValkyrieSharedQueries, SharedValkyrieRuntimeTransactionWithoutReturn, SharedValkyrieRuntimeTransactionWithReturn, SharedValkyrieRuntimeTransacter, SharedValkyrieSharedDatabase, SharedValkyrieRuntimeSqlDriverSchema, SharedValkyrieKoin_coreKoinComponent, SharedValkyrieKoin_coreKoinScopeComponent, SharedValkyrieKoin_coreQualifier, SharedValkyrieKotlinKClass, SharedValkyrieKotlinLazy, SharedValkyrieAppInfo, SharedValkyrieKotlinCoroutineContextElement, SharedValkyrieKotlinCoroutineContextKey, SharedValkyrieKotlinIterator, SharedValkyrieKotlinx_serialization_coreCompositeEncoder, SharedValkyrieKotlinAnnotation, SharedValkyrieKotlinx_serialization_coreCompositeDecoder, SharedValkyrieKtor_ioCloseable, SharedValkyrieKtor_client_coreHttpClientEngine, SharedValkyrieKtor_client_coreHttpClientEngineCapability, SharedValkyrieKtor_utilsAttributes, SharedValkyrieRuntimeSqlPreparedStatement, SharedValkyrieRuntimeSqlCursor, SharedValkyrieRuntimeCloseable, SharedValkyrieKotlinContinuation, SharedValkyrieKotlinContinuationInterceptor, SharedValkyrieKotlinx_coroutines_coreRunnable, SharedValkyrieRuntimeTransactionCallbacks, SharedValkyrieRuntimeQueryListener, SharedValkyrieKoin_coreScopeCallback, SharedValkyrieKotlinKDeclarationContainer, SharedValkyrieKotlinKAnnotatedElement, SharedValkyrieKotlinKClassifier, SharedValkyrieKtor_httpParameters, SharedValkyrieKotlinx_serialization_coreSerializersModuleCollector, SharedValkyrieKtor_client_coreHttpClientFeature, SharedValkyrieKtor_httpHttpMessageBuilder, SharedValkyrieKotlinx_coroutines_coreJob, SharedValkyrieKtor_ioByteReadChannel, SharedValkyrieKtor_utilsTypeInfo, SharedValkyrieKtor_client_coreHttpRequest, SharedValkyrieKotlinSuspendFunction2, SharedValkyrieKotlinMapEntry, SharedValkyrieKtor_utilsStringValues, SharedValkyrieKtor_httpHeaders, SharedValkyrieKotlinx_coroutines_coreChildHandle, SharedValkyrieKotlinx_coroutines_coreChildJob, SharedValkyrieKotlinx_coroutines_coreDisposableHandle, SharedValkyrieKotlinSequence, SharedValkyrieKotlinx_coroutines_coreSelectClause0, SharedValkyrieKtor_ioReadSession, SharedValkyrieKotlinSuspendFunction1, SharedValkyrieKotlinAppendable, SharedValkyrieKotlinKType, SharedValkyrieKtor_httpHttpMessage, SharedValkyrieKotlinFunction, SharedValkyrieKotlinx_coroutines_coreParentJob, SharedValkyrieKotlinx_coroutines_coreSelectInstance, SharedValkyrieKotlinSuspendFunction0, SharedValkyrieKtor_ioObjectPool, SharedValkyrieKtor_ioInput, SharedValkyrieKtor_ioOutput;
 
 NS_ASSUME_NONNULL_BEGIN
 #pragma clang diagnostic push
@@ -318,6 +318,29 @@ __attribute__((swift_name("ActivityResponse.Companion")))
 @end;
 
 __attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Caption")))
+@interface SharedValkyrieCaption : SharedValkyrieBase
+- (instancetype)initWithText:(NSString * _Nullable)text __attribute__((swift_name("init(text:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) SharedValkyrieCaptionCompanion *companion __attribute__((swift_name("companion")));
+- (NSString * _Nullable)component1 __attribute__((swift_name("component1()")));
+- (SharedValkyrieCaption *)doCopyText:(NSString * _Nullable)text __attribute__((swift_name("doCopy(text:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) NSString * _Nullable text __attribute__((swift_name("text")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Caption.Companion")))
+@interface SharedValkyrieCaptionCompanion : SharedValkyrieBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) SharedValkyrieCaptionCompanion *shared __attribute__((swift_name("shared")));
+- (id<SharedValkyrieKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("CatalogItem")))
 @interface SharedValkyrieCatalogItem : SharedValkyrieBase
 - (instancetype)initWithType:(NSString * _Nullable)type name:(NSString * _Nullable)name displayName:(NSString * _Nullable)displayName path:(NSString * _Nullable)path space:(NSString * _Nullable)space signature:(NSString * _Nullable)signature fullObject:(SharedValkyrieBoolean * _Nullable)fullObject description:(NSString * _Nullable)description owner:(NSString * _Nullable)owner lastModifiedTime:(SharedValkyrieLong * _Nullable)lastModifiedTime favorite:(SharedValkyrieBoolean * _Nullable)favorite content:(NSString * _Nullable)content links:(NSArray<SharedValkyrieLink *> * _Nullable)links __attribute__((swift_name("init(type:name:displayName:path:space:signature:fullObject:description:owner:lastModifiedTime:favorite:content:links:)"))) __attribute__((objc_designated_initializer));
@@ -365,6 +388,573 @@ __attribute__((swift_name("CatalogItem.Companion")))
 @end;
 
 __attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Column")))
+@interface SharedValkyrieColumn : SharedValkyrieBase
+- (instancetype)initWithColumnID:(NSString * _Nullable)columnID columnFormula:(SharedValkyrieFormula * _Nullable)columnFormula type:(NSString * _Nullable)type columnSort:(SharedValkyrieColumnSort * _Nullable)columnSort columnHeading:(SharedValkyrieColumnHeading * _Nullable)columnHeading __attribute__((swift_name("init(columnID:columnFormula:type:columnSort:columnHeading:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) SharedValkyrieColumnCompanion *companion __attribute__((swift_name("companion")));
+- (NSString * _Nullable)component1 __attribute__((swift_name("component1()")));
+- (SharedValkyrieFormula * _Nullable)component2 __attribute__((swift_name("component2()")));
+- (NSString * _Nullable)component3 __attribute__((swift_name("component3()")));
+- (SharedValkyrieColumnSort * _Nullable)component4 __attribute__((swift_name("component4()")));
+- (SharedValkyrieColumnHeading * _Nullable)component5 __attribute__((swift_name("component5()")));
+- (SharedValkyrieColumn *)doCopyColumnID:(NSString * _Nullable)columnID columnFormula:(SharedValkyrieFormula * _Nullable)columnFormula type:(NSString * _Nullable)type columnSort:(SharedValkyrieColumnSort * _Nullable)columnSort columnHeading:(SharedValkyrieColumnHeading * _Nullable)columnHeading __attribute__((swift_name("doCopy(columnID:columnFormula:type:columnSort:columnHeading:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) SharedValkyrieFormula * _Nullable columnFormula __attribute__((swift_name("columnFormula")));
+@property (readonly) SharedValkyrieColumnHeading * _Nullable columnHeading __attribute__((swift_name("columnHeading")));
+@property (readonly) NSString * _Nullable columnID __attribute__((swift_name("columnID")));
+@property (readonly) SharedValkyrieColumnSort * _Nullable columnSort __attribute__((swift_name("columnSort")));
+@property (readonly) NSString * _Nullable type __attribute__((swift_name("type")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Column.Companion")))
+@interface SharedValkyrieColumnCompanion : SharedValkyrieBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) SharedValkyrieColumnCompanion *shared __attribute__((swift_name("shared")));
+- (id<SharedValkyrieKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("ColumnHeading")))
+@interface SharedValkyrieColumnHeading : SharedValkyrieBase
+- (instancetype)initWithCaption:(SharedValkyrieCaption * _Nullable)caption __attribute__((swift_name("init(caption:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) SharedValkyrieColumnHeadingCompanion *companion __attribute__((swift_name("companion")));
+- (SharedValkyrieCaption * _Nullable)component1 __attribute__((swift_name("component1()")));
+- (SharedValkyrieColumnHeading *)doCopyCaption:(SharedValkyrieCaption * _Nullable)caption __attribute__((swift_name("doCopy(caption:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) SharedValkyrieCaption * _Nullable caption __attribute__((swift_name("caption")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("ColumnHeading.Companion")))
+@interface SharedValkyrieColumnHeadingCompanion : SharedValkyrieBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) SharedValkyrieColumnHeadingCompanion *shared __attribute__((swift_name("shared")));
+- (id<SharedValkyrieKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("ColumnSort")))
+@interface SharedValkyrieColumnSort : SharedValkyrieBase
+- (instancetype)initWithDirection:(NSString * _Nullable)direction weight:(SharedValkyrieLong * _Nullable)weight __attribute__((swift_name("init(direction:weight:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) SharedValkyrieColumnSortCompanion *companion __attribute__((swift_name("companion")));
+- (NSString * _Nullable)component1 __attribute__((swift_name("component1()")));
+- (SharedValkyrieLong * _Nullable)component2 __attribute__((swift_name("component2()")));
+- (SharedValkyrieColumnSort *)doCopyDirection:(NSString * _Nullable)direction weight:(SharedValkyrieLong * _Nullable)weight __attribute__((swift_name("doCopy(direction:weight:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) NSString * _Nullable direction __attribute__((swift_name("direction")));
+@property (readonly) SharedValkyrieLong * _Nullable weight __attribute__((swift_name("weight")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("ColumnSort.Companion")))
+@interface SharedValkyrieColumnSortCompanion : SharedValkyrieBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) SharedValkyrieColumnSortCompanion *shared __attribute__((swift_name("shared")));
+- (id<SharedValkyrieKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Criteria")))
+@interface SharedValkyrieCriteria : SharedValkyrieBase
+- (instancetype)initWithColumns:(NSArray<SharedValkyrieColumn *> * _Nullable)columns type:(NSString * _Nullable)type __attribute__((swift_name("init(columns:type:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) SharedValkyrieCriteriaCompanion *companion __attribute__((swift_name("companion")));
+- (NSArray<SharedValkyrieColumn *> * _Nullable)component1 __attribute__((swift_name("component1()")));
+- (NSString * _Nullable)component2 __attribute__((swift_name("component2()")));
+- (SharedValkyrieCriteria *)doCopyColumns:(NSArray<SharedValkyrieColumn *> * _Nullable)columns type:(NSString * _Nullable)type __attribute__((swift_name("doCopy(columns:type:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) NSArray<SharedValkyrieColumn *> * _Nullable columns __attribute__((swift_name("columns")));
+@property (readonly) NSString * _Nullable type __attribute__((swift_name("type")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Criteria.Companion")))
+@interface SharedValkyrieCriteriaCompanion : SharedValkyrieBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) SharedValkyrieCriteriaCompanion *shared __attribute__((swift_name("shared")));
+- (id<SharedValkyrieKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("DataSource")))
+@interface SharedValkyrieDataSource : SharedValkyrieBase
+- (instancetype)initWithSubjectArea:(NSString * _Nullable)subjectArea __attribute__((swift_name("init(subjectArea:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) SharedValkyrieDataSourceCompanion *companion __attribute__((swift_name("companion")));
+- (NSString * _Nullable)component1 __attribute__((swift_name("component1()")));
+- (SharedValkyrieDataSource *)doCopySubjectArea:(NSString * _Nullable)subjectArea __attribute__((swift_name("doCopy(subjectArea:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) NSString * _Nullable subjectArea __attribute__((swift_name("subjectArea")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("DataSource.Companion")))
+@interface SharedValkyrieDataSourceCompanion : SharedValkyrieBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) SharedValkyrieDataSourceCompanion *shared __attribute__((swift_name("shared")));
+- (id<SharedValkyrieKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("DataState")))
+@interface SharedValkyrieDataState<__covariant T> : SharedValkyrieBase
+- (instancetype)initWithData:(T _Nullable)data exception:(NSString * _Nullable)exception empty:(BOOL)empty loading:(BOOL)loading code:(int32_t)code __attribute__((swift_name("init(data:exception:empty:loading:code:)"))) __attribute__((objc_designated_initializer));
+- (T _Nullable)component1 __attribute__((swift_name("component1()")));
+- (NSString * _Nullable)component2 __attribute__((swift_name("component2()")));
+- (BOOL)component3 __attribute__((swift_name("component3()")));
+- (BOOL)component4 __attribute__((swift_name("component4()")));
+- (int32_t)component5 __attribute__((swift_name("component5()")));
+- (SharedValkyrieDataState<T> *)doCopyData:(T _Nullable)data exception:(NSString * _Nullable)exception empty:(BOOL)empty loading:(BOOL)loading code:(int32_t)code __attribute__((swift_name("doCopy(data:exception:empty:loading:code:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) int32_t code __attribute__((swift_name("code")));
+@property (readonly) T _Nullable data __attribute__((swift_name("data")));
+@property (readonly) BOOL empty __attribute__((swift_name("empty")));
+@property (readonly) NSString * _Nullable exception __attribute__((swift_name("exception")));
+@property (readonly) BOOL loading __attribute__((swift_name("loading")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("DataVisualization")))
+@interface SharedValkyrieDataVisualization : SharedValkyrieBase
+- (instancetype)initWithTitle:(NSString * _Nullable)title viewSuggestInput:(SharedValkyrieViewSuggestInput * _Nullable)viewSuggestInput __attribute__((swift_name("init(title:viewSuggestInput:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) SharedValkyrieDataVisualizationCompanion *companion __attribute__((swift_name("companion")));
+- (NSString * _Nullable)component1 __attribute__((swift_name("component1()")));
+- (SharedValkyrieViewSuggestInput * _Nullable)component2 __attribute__((swift_name("component2()")));
+- (SharedValkyrieDataVisualization *)doCopyTitle:(NSString * _Nullable)title viewSuggestInput:(SharedValkyrieViewSuggestInput * _Nullable)viewSuggestInput __attribute__((swift_name("doCopy(title:viewSuggestInput:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) NSString * _Nullable title __attribute__((swift_name("title")));
+@property (readonly) SharedValkyrieViewSuggestInput * _Nullable viewSuggestInput __attribute__((swift_name("viewSuggestInput")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("DataVisualization.Companion")))
+@interface SharedValkyrieDataVisualizationCompanion : SharedValkyrieBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) SharedValkyrieDataVisualizationCompanion *shared __attribute__((swift_name("shared")));
+- (id<SharedValkyrieKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Expr")))
+@interface SharedValkyrieExpr : SharedValkyrieBase
+- (instancetype)initWithExpression:(NSString * _Nullable)expression type:(SharedValkyrieType * _Nullable)type __attribute__((swift_name("init(expression:type:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) SharedValkyrieExprCompanion *companion __attribute__((swift_name("companion")));
+- (NSString * _Nullable)component1 __attribute__((swift_name("component1()")));
+- (SharedValkyrieType * _Nullable)component2 __attribute__((swift_name("component2()")));
+- (SharedValkyrieExpr *)doCopyExpression:(NSString * _Nullable)expression type:(SharedValkyrieType * _Nullable)type __attribute__((swift_name("doCopy(expression:type:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) NSString * _Nullable expression __attribute__((swift_name("expression")));
+@property (readonly) SharedValkyrieType * _Nullable type __attribute__((swift_name("type")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Expr.Companion")))
+@interface SharedValkyrieExprCompanion : SharedValkyrieBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) SharedValkyrieExprCompanion *shared __attribute__((swift_name("shared")));
+- (id<SharedValkyrieKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("FilterByColumns")))
+@interface SharedValkyrieFilterByColumns : SharedValkyrieBase
+- (instancetype)initWithChildren:(NSArray<SharedValkyrieExpr *> * _Nullable)children __attribute__((swift_name("init(children:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) SharedValkyrieFilterByColumnsCompanion *companion __attribute__((swift_name("companion")));
+- (NSArray<SharedValkyrieExpr *> * _Nullable)component1 __attribute__((swift_name("component1()")));
+- (SharedValkyrieFilterByColumns *)doCopyChildren:(NSArray<SharedValkyrieExpr *> * _Nullable)children __attribute__((swift_name("doCopy(children:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) NSArray<SharedValkyrieExpr *> * _Nullable children __attribute__((swift_name("children")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("FilterByColumns.Companion")))
+@interface SharedValkyrieFilterByColumnsCompanion : SharedValkyrieBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) SharedValkyrieFilterByColumnsCompanion *shared __attribute__((swift_name("shared")));
+- (id<SharedValkyrieKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("FilterControlChoices")))
+@interface SharedValkyrieFilterControlChoices : SharedValkyrieBase
+- (instancetype)initWithChildren:(NSArray<SharedValkyrieFilterControlChoicesChild *> * _Nullable)children __attribute__((swift_name("init(children:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) SharedValkyrieFilterControlChoicesCompanion *companion __attribute__((swift_name("companion")));
+- (NSArray<SharedValkyrieFilterControlChoicesChild *> * _Nullable)component1 __attribute__((swift_name("component1()")));
+- (SharedValkyrieFilterControlChoices *)doCopyChildren:(NSArray<SharedValkyrieFilterControlChoicesChild *> * _Nullable)children __attribute__((swift_name("doCopy(children:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) NSArray<SharedValkyrieFilterControlChoicesChild *> * _Nullable children __attribute__((swift_name("children")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("FilterControlChoices.Companion")))
+@interface SharedValkyrieFilterControlChoicesCompanion : SharedValkyrieBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) SharedValkyrieFilterControlChoicesCompanion *shared __attribute__((swift_name("shared")));
+- (id<SharedValkyrieKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("FilterControlChoicesChild")))
+@interface SharedValkyrieFilterControlChoicesChild : SharedValkyrieBase
+- (instancetype)initWithValue:(SharedValkyrieCaption * _Nullable)value caption:(SharedValkyrieCaption * _Nullable)caption __attribute__((swift_name("init(value:caption:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) SharedValkyrieFilterControlChoicesChildCompanion *companion __attribute__((swift_name("companion")));
+- (SharedValkyrieCaption * _Nullable)component1 __attribute__((swift_name("component1()")));
+- (SharedValkyrieCaption * _Nullable)component2 __attribute__((swift_name("component2()")));
+- (SharedValkyrieFilterControlChoicesChild *)doCopyValue:(SharedValkyrieCaption * _Nullable)value caption:(SharedValkyrieCaption * _Nullable)caption __attribute__((swift_name("doCopy(value:caption:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) SharedValkyrieCaption * _Nullable caption __attribute__((swift_name("caption")));
+@property (readonly) SharedValkyrieCaption * _Nullable value __attribute__((swift_name("value")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("FilterControlChoicesChild.Companion")))
+@interface SharedValkyrieFilterControlChoicesChildCompanion : SharedValkyrieBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) SharedValkyrieFilterControlChoicesChildCompanion *shared __attribute__((swift_name("shared")));
+- (id<SharedValkyrieKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("FilterControlCollections")))
+@interface SharedValkyrieFilterControlCollections : SharedValkyrieBase
+- (instancetype)initWithChildren:(NSArray<SharedValkyrieFilterControlCollectionsChild *> * _Nullable)children __attribute__((swift_name("init(children:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) SharedValkyrieFilterControlCollectionsCompanion *companion __attribute__((swift_name("companion")));
+- (NSArray<SharedValkyrieFilterControlCollectionsChild *> * _Nullable)component1 __attribute__((swift_name("component1()")));
+- (SharedValkyrieFilterControlCollections *)doCopyChildren:(NSArray<SharedValkyrieFilterControlCollectionsChild *> * _Nullable)children __attribute__((swift_name("doCopy(children:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) NSArray<SharedValkyrieFilterControlCollectionsChild *> * _Nullable children __attribute__((swift_name("children")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("FilterControlCollections.Companion")))
+@interface SharedValkyrieFilterControlCollectionsCompanion : SharedValkyrieBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) SharedValkyrieFilterControlCollectionsCompanion *shared __attribute__((swift_name("shared")));
+- (id<SharedValkyrieKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("FilterControlCollectionsChild")))
+@interface SharedValkyrieFilterControlCollectionsChild : SharedValkyrieBase
+- (instancetype)initWithName:(NSString * _Nullable)name filterControls:(SharedValkyrieFilterControls * _Nullable)filterControls __attribute__((swift_name("init(name:filterControls:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) SharedValkyrieFilterControlCollectionsChildCompanion *companion __attribute__((swift_name("companion")));
+- (NSString * _Nullable)component1 __attribute__((swift_name("component1()")));
+- (SharedValkyrieFilterControls * _Nullable)component2 __attribute__((swift_name("component2()")));
+- (SharedValkyrieFilterControlCollectionsChild *)doCopyName:(NSString * _Nullable)name filterControls:(SharedValkyrieFilterControls * _Nullable)filterControls __attribute__((swift_name("doCopy(name:filterControls:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) SharedValkyrieFilterControls * _Nullable filterControls __attribute__((swift_name("filterControls")));
+@property (readonly) NSString * _Nullable name __attribute__((swift_name("name")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("FilterControlCollectionsChild.Companion")))
+@interface SharedValkyrieFilterControlCollectionsChildCompanion : SharedValkyrieBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) SharedValkyrieFilterControlCollectionsChildCompanion *shared __attribute__((swift_name("shared")));
+- (id<SharedValkyrieKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("FilterControlConfig")))
+@interface SharedValkyrieFilterControlConfig : SharedValkyrieBase
+- (instancetype)initWithVersion:(NSString * _Nullable)version settings:(SharedValkyrieSettings * _Nullable)settings __attribute__((swift_name("init(version:settings:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) SharedValkyrieFilterControlConfigCompanion *companion __attribute__((swift_name("companion")));
+- (NSString * _Nullable)component1 __attribute__((swift_name("component1()")));
+- (SharedValkyrieSettings * _Nullable)component2 __attribute__((swift_name("component2()")));
+- (SharedValkyrieFilterControlConfig *)doCopyVersion:(NSString * _Nullable)version settings:(SharedValkyrieSettings * _Nullable)settings __attribute__((swift_name("doCopy(version:settings:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) SharedValkyrieSettings * _Nullable settings __attribute__((swift_name("settings")));
+@property (readonly) NSString * _Nullable version __attribute__((swift_name("version")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("FilterControlConfig.Companion")))
+@interface SharedValkyrieFilterControlConfigCompanion : SharedValkyrieBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) SharedValkyrieFilterControlConfigCompanion *shared __attribute__((swift_name("shared")));
+- (id<SharedValkyrieKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("FilterControlDefaultValues")))
+@interface SharedValkyrieFilterControlDefaultValues : SharedValkyrieBase
+- (instancetype)initWithChildren:(NSArray<SharedValkyrieCaption *> * _Nullable)children type:(NSString * _Nullable)type __attribute__((swift_name("init(children:type:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) SharedValkyrieFilterControlDefaultValuesCompanion *companion __attribute__((swift_name("companion")));
+- (NSArray<SharedValkyrieCaption *> * _Nullable)component1 __attribute__((swift_name("component1()")));
+- (NSString * _Nullable)component2 __attribute__((swift_name("component2()")));
+- (SharedValkyrieFilterControlDefaultValues *)doCopyChildren:(NSArray<SharedValkyrieCaption *> * _Nullable)children type:(NSString * _Nullable)type __attribute__((swift_name("doCopy(children:type:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) NSArray<SharedValkyrieCaption *> * _Nullable children __attribute__((swift_name("children")));
+@property (readonly) NSString * _Nullable type __attribute__((swift_name("type")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("FilterControlDefaultValues.Companion")))
+@interface SharedValkyrieFilterControlDefaultValuesCompanion : SharedValkyrieBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) SharedValkyrieFilterControlDefaultValuesCompanion *shared __attribute__((swift_name("shared")));
+- (id<SharedValkyrieKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("FilterControlSource")))
+@interface SharedValkyrieFilterControlSource : SharedValkyrieBase
+- (instancetype)initWithType:(NSString * _Nullable)type filterControlChoices:(SharedValkyrieFilterControlChoices * _Nullable)filterControlChoices __attribute__((swift_name("init(type:filterControlChoices:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) SharedValkyrieFilterControlSourceCompanion *companion __attribute__((swift_name("companion")));
+- (NSString * _Nullable)component1 __attribute__((swift_name("component1()")));
+- (SharedValkyrieFilterControlChoices * _Nullable)component2 __attribute__((swift_name("component2()")));
+- (SharedValkyrieFilterControlSource *)doCopyType:(NSString * _Nullable)type filterControlChoices:(SharedValkyrieFilterControlChoices * _Nullable)filterControlChoices __attribute__((swift_name("doCopy(type:filterControlChoices:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) SharedValkyrieFilterControlChoices * _Nullable filterControlChoices __attribute__((swift_name("filterControlChoices")));
+@property (readonly) NSString * _Nullable type __attribute__((swift_name("type")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("FilterControlSource.Companion")))
+@interface SharedValkyrieFilterControlSourceCompanion : SharedValkyrieBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) SharedValkyrieFilterControlSourceCompanion *shared __attribute__((swift_name("shared")));
+- (id<SharedValkyrieKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("FilterControls")))
+@interface SharedValkyrieFilterControls : SharedValkyrieBase
+- (instancetype)initWithChildren:(NSArray<SharedValkyrieFilterControlsChild *> * _Nullable)children __attribute__((swift_name("init(children:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) SharedValkyrieFilterControlsCompanion *companion __attribute__((swift_name("companion")));
+- (NSArray<SharedValkyrieFilterControlsChild *> * _Nullable)component1 __attribute__((swift_name("component1()")));
+- (SharedValkyrieFilterControls *)doCopyChildren:(NSArray<SharedValkyrieFilterControlsChild *> * _Nullable)children __attribute__((swift_name("doCopy(children:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) NSArray<SharedValkyrieFilterControlsChild *> * _Nullable children __attribute__((swift_name("children")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("FilterControls.Companion")))
+@interface SharedValkyrieFilterControlsCompanion : SharedValkyrieBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) SharedValkyrieFilterControlsCompanion *shared __attribute__((swift_name("shared")));
+- (id<SharedValkyrieKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("FilterControlsChild")))
+@interface SharedValkyrieFilterControlsChild : SharedValkyrieBase
+- (instancetype)initWithAddress:(SharedValkyrieDouble * _Nullable)address columnID:(NSString * _Nullable)columnID filterID:(NSString * _Nullable)filterID type:(NSString * _Nullable)type filterOperator:(SharedValkyrieFilterOperator * _Nullable)filterOperator filterControlDefaultValues:(SharedValkyrieFilterControlDefaultValues * _Nullable)filterControlDefaultValues formula:(SharedValkyrieFormula * _Nullable)formula filterUIControl:(SharedValkyrieFilterUIControl * _Nullable)filterUIControl filterControlConfig:(SharedValkyrieFilterControlConfig * _Nullable)filterControlConfig filterByColumns:(SharedValkyrieFilterByColumns * _Nullable)filterByColumns filterControlSource:(SharedValkyrieFilterControlSource * _Nullable)filterControlSource __attribute__((swift_name("init(address:columnID:filterID:type:filterOperator:filterControlDefaultValues:formula:filterUIControl:filterControlConfig:filterByColumns:filterControlSource:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) SharedValkyrieFilterControlsChildCompanion *companion __attribute__((swift_name("companion")));
+- (SharedValkyrieDouble * _Nullable)component1 __attribute__((swift_name("component1()")));
+- (SharedValkyrieFilterByColumns * _Nullable)component10 __attribute__((swift_name("component10()")));
+- (SharedValkyrieFilterControlSource * _Nullable)component11 __attribute__((swift_name("component11()")));
+- (NSString * _Nullable)component2 __attribute__((swift_name("component2()")));
+- (NSString * _Nullable)component3 __attribute__((swift_name("component3()")));
+- (NSString * _Nullable)component4 __attribute__((swift_name("component4()")));
+- (SharedValkyrieFilterOperator * _Nullable)component5 __attribute__((swift_name("component5()")));
+- (SharedValkyrieFilterControlDefaultValues * _Nullable)component6 __attribute__((swift_name("component6()")));
+- (SharedValkyrieFormula * _Nullable)component7 __attribute__((swift_name("component7()")));
+- (SharedValkyrieFilterUIControl * _Nullable)component8 __attribute__((swift_name("component8()")));
+- (SharedValkyrieFilterControlConfig * _Nullable)component9 __attribute__((swift_name("component9()")));
+- (SharedValkyrieFilterControlsChild *)doCopyAddress:(SharedValkyrieDouble * _Nullable)address columnID:(NSString * _Nullable)columnID filterID:(NSString * _Nullable)filterID type:(NSString * _Nullable)type filterOperator:(SharedValkyrieFilterOperator * _Nullable)filterOperator filterControlDefaultValues:(SharedValkyrieFilterControlDefaultValues * _Nullable)filterControlDefaultValues formula:(SharedValkyrieFormula * _Nullable)formula filterUIControl:(SharedValkyrieFilterUIControl * _Nullable)filterUIControl filterControlConfig:(SharedValkyrieFilterControlConfig * _Nullable)filterControlConfig filterByColumns:(SharedValkyrieFilterByColumns * _Nullable)filterByColumns filterControlSource:(SharedValkyrieFilterControlSource * _Nullable)filterControlSource __attribute__((swift_name("doCopy(address:columnID:filterID:type:filterOperator:filterControlDefaultValues:formula:filterUIControl:filterControlConfig:filterByColumns:filterControlSource:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) SharedValkyrieDouble * _Nullable address __attribute__((swift_name("address")));
+@property (readonly) NSString * _Nullable columnID __attribute__((swift_name("columnID")));
+@property (readonly) SharedValkyrieFilterByColumns * _Nullable filterByColumns __attribute__((swift_name("filterByColumns")));
+@property (readonly) SharedValkyrieFilterControlConfig * _Nullable filterControlConfig __attribute__((swift_name("filterControlConfig")));
+@property (readonly) SharedValkyrieFilterControlDefaultValues * _Nullable filterControlDefaultValues __attribute__((swift_name("filterControlDefaultValues")));
+@property (readonly) SharedValkyrieFilterControlSource * _Nullable filterControlSource __attribute__((swift_name("filterControlSource")));
+@property (readonly) NSString * _Nullable filterID __attribute__((swift_name("filterID")));
+@property (readonly) SharedValkyrieFilterOperator * _Nullable filterOperator __attribute__((swift_name("filterOperator")));
+@property (readonly) SharedValkyrieFilterUIControl * _Nullable filterUIControl __attribute__((swift_name("filterUIControl")));
+@property (readonly) SharedValkyrieFormula * _Nullable formula __attribute__((swift_name("formula")));
+@property (readonly) NSString * _Nullable type __attribute__((swift_name("type")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("FilterControlsChild.Companion")))
+@interface SharedValkyrieFilterControlsChildCompanion : SharedValkyrieBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) SharedValkyrieFilterControlsChildCompanion *shared __attribute__((swift_name("shared")));
+- (id<SharedValkyrieKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("FilterOperator")))
+@interface SharedValkyrieFilterOperator : SharedValkyrieBase
+- (instancetype)initWithOp:(NSString * _Nullable)op __attribute__((swift_name("init(op:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) SharedValkyrieFilterOperatorCompanion *companion __attribute__((swift_name("companion")));
+- (NSString * _Nullable)component1 __attribute__((swift_name("component1()")));
+- (SharedValkyrieFilterOperator *)doCopyOp:(NSString * _Nullable)op __attribute__((swift_name("doCopy(op:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) NSString * _Nullable op __attribute__((swift_name("op")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("FilterOperator.Companion")))
+@interface SharedValkyrieFilterOperatorCompanion : SharedValkyrieBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) SharedValkyrieFilterOperatorCompanion *shared __attribute__((swift_name("shared")));
+- (id<SharedValkyrieKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("FilterUIControl")))
+@interface SharedValkyrieFilterUIControl : SharedValkyrieBase
+- (instancetype)initWithDisplayTimeZone:(NSString * _Nullable)displayTimeZone type:(NSString * _Nullable)type __attribute__((swift_name("init(displayTimeZone:type:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) SharedValkyrieFilterUIControlCompanion *companion __attribute__((swift_name("companion")));
+- (NSString * _Nullable)component1 __attribute__((swift_name("component1()")));
+- (NSString * _Nullable)component2 __attribute__((swift_name("component2()")));
+- (SharedValkyrieFilterUIControl *)doCopyDisplayTimeZone:(NSString * _Nullable)displayTimeZone type:(NSString * _Nullable)type __attribute__((swift_name("doCopy(displayTimeZone:type:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) NSString * _Nullable displayTimeZone __attribute__((swift_name("displayTimeZone")));
+@property (readonly) NSString * _Nullable type __attribute__((swift_name("type")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("FilterUIControl.Companion")))
+@interface SharedValkyrieFilterUIControlCompanion : SharedValkyrieBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) SharedValkyrieFilterUIControlCompanion *shared __attribute__((swift_name("shared")));
+- (id<SharedValkyrieKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Formula")))
+@interface SharedValkyrieFormula : SharedValkyrieBase
+- (instancetype)initWithExpr:(SharedValkyrieExpr * _Nullable)expr __attribute__((swift_name("init(expr:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) SharedValkyrieFormulaCompanion *companion __attribute__((swift_name("companion")));
+- (SharedValkyrieExpr * _Nullable)component1 __attribute__((swift_name("component1()")));
+- (SharedValkyrieFormula *)doCopyExpr:(SharedValkyrieExpr * _Nullable)expr __attribute__((swift_name("doCopy(expr:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) SharedValkyrieExpr * _Nullable expr __attribute__((swift_name("expr")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Formula.Companion")))
+@interface SharedValkyrieFormulaCompanion : SharedValkyrieBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) SharedValkyrieFormulaCompanion *shared __attribute__((swift_name("shared")));
+- (id<SharedValkyrieKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Header")))
+@interface SharedValkyrieHeader : SharedValkyrieBase
+- (instancetype)initWithDataType:(NSString * _Nullable)dataType family:(NSString * _Nullable)family name:(NSString * _Nullable)name aggRule:(NSString * _Nullable)aggRule columnID:(NSString * _Nullable)columnID size:(SharedValkyrieLong * _Nullable)size type:(NSString * _Nullable)type expression:(NSString * _Nullable)expression values:(NSArray<NSString *> * _Nullable)values __attribute__((swift_name("init(dataType:family:name:aggRule:columnID:size:type:expression:values:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) SharedValkyrieHeaderCompanion *companion __attribute__((swift_name("companion")));
+- (NSString * _Nullable)component1 __attribute__((swift_name("component1()")));
+- (NSString * _Nullable)component2 __attribute__((swift_name("component2()")));
+- (NSString * _Nullable)component3 __attribute__((swift_name("component3()")));
+- (NSString * _Nullable)component4 __attribute__((swift_name("component4()")));
+- (NSString * _Nullable)component5 __attribute__((swift_name("component5()")));
+- (SharedValkyrieLong * _Nullable)component6 __attribute__((swift_name("component6()")));
+- (NSString * _Nullable)component7 __attribute__((swift_name("component7()")));
+- (NSString * _Nullable)component8 __attribute__((swift_name("component8()")));
+- (NSArray<NSString *> * _Nullable)component9 __attribute__((swift_name("component9()")));
+- (SharedValkyrieHeader *)doCopyDataType:(NSString * _Nullable)dataType family:(NSString * _Nullable)family name:(NSString * _Nullable)name aggRule:(NSString * _Nullable)aggRule columnID:(NSString * _Nullable)columnID size:(SharedValkyrieLong * _Nullable)size type:(NSString * _Nullable)type expression:(NSString * _Nullable)expression values:(NSArray<NSString *> * _Nullable)values __attribute__((swift_name("doCopy(dataType:family:name:aggRule:columnID:size:type:expression:values:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) NSString * _Nullable aggRule __attribute__((swift_name("aggRule")));
+@property (readonly) NSString * _Nullable columnID __attribute__((swift_name("columnID")));
+@property (readonly) NSString * _Nullable dataType __attribute__((swift_name("dataType")));
+@property (readonly) NSString * _Nullable expression __attribute__((swift_name("expression")));
+@property (readonly) NSString * _Nullable family __attribute__((swift_name("family")));
+@property (readonly) NSString * _Nullable name __attribute__((swift_name("name")));
+@property (readonly) SharedValkyrieLong * _Nullable size __attribute__((swift_name("size")));
+@property (readonly) NSString * _Nullable type __attribute__((swift_name("type")));
+@property (readonly) NSArray<NSString *> * _Nullable values __attribute__((swift_name("values")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Header.Companion")))
+@interface SharedValkyrieHeaderCompanion : SharedValkyrieBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) SharedValkyrieHeaderCompanion *shared __attribute__((swift_name("shared")));
+- (id<SharedValkyrieKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("Link")))
 @interface SharedValkyrieLink : SharedValkyrieBase
 - (instancetype)initWithRel:(NSString * _Nullable)rel href:(NSString * _Nullable)href __attribute__((swift_name("init(rel:href:)"))) __attribute__((objc_designated_initializer));
@@ -386,6 +976,62 @@ __attribute__((swift_name("Link.Companion")))
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)companion __attribute__((swift_name("init()")));
 @property (class, readonly, getter=shared) SharedValkyrieLinkCompanion *shared __attribute__((swift_name("shared")));
+- (id<SharedValkyrieKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("MajelDataRequest")))
+@interface SharedValkyrieMajelDataRequest : SharedValkyrieBase
+- (instancetype)initWithProjectConfig:(SharedValkyrieProjectConfig * _Nullable)projectConfig filterControlCollections:(SharedValkyrieFilterControlCollections * _Nullable)filterControlCollections settingsVersion:(NSString * _Nullable)settingsVersion limit:(SharedValkyrieLong * _Nullable)limit __attribute__((swift_name("init(projectConfig:filterControlCollections:settingsVersion:limit:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) SharedValkyrieMajelDataRequestCompanion *companion __attribute__((swift_name("companion")));
+- (SharedValkyrieProjectConfig * _Nullable)component1 __attribute__((swift_name("component1()")));
+- (SharedValkyrieFilterControlCollections * _Nullable)component2 __attribute__((swift_name("component2()")));
+- (NSString * _Nullable)component3 __attribute__((swift_name("component3()")));
+- (SharedValkyrieLong * _Nullable)component4 __attribute__((swift_name("component4()")));
+- (SharedValkyrieMajelDataRequest *)doCopyProjectConfig:(SharedValkyrieProjectConfig * _Nullable)projectConfig filterControlCollections:(SharedValkyrieFilterControlCollections * _Nullable)filterControlCollections settingsVersion:(NSString * _Nullable)settingsVersion limit:(SharedValkyrieLong * _Nullable)limit __attribute__((swift_name("doCopy(projectConfig:filterControlCollections:settingsVersion:limit:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) SharedValkyrieFilterControlCollections * _Nullable filterControlCollections __attribute__((swift_name("filterControlCollections")));
+@property (readonly) SharedValkyrieLong * _Nullable limit __attribute__((swift_name("limit")));
+@property (readonly) SharedValkyrieProjectConfig * _Nullable projectConfig __attribute__((swift_name("projectConfig")));
+@property (readonly) NSString * _Nullable settingsVersion __attribute__((swift_name("settingsVersion")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("MajelDataRequest.Companion")))
+@interface SharedValkyrieMajelDataRequestCompanion : SharedValkyrieBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) SharedValkyrieMajelDataRequestCompanion *shared __attribute__((swift_name("shared")));
+- (id<SharedValkyrieKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("MajelDataResponse")))
+@interface SharedValkyrieMajelDataResponse : SharedValkyrieBase
+- (instancetype)initWithRelations:(NSDictionary<NSString *, NSArray<SharedValkyrieLong *> *> * _Nullable)relations headers:(NSArray<SharedValkyrieHeader *> * _Nullable)headers facts:(NSArray<NSArray<SharedValkyrieDouble *> *> * _Nullable)facts __attribute__((swift_name("init(relations:headers:facts:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) SharedValkyrieMajelDataResponseCompanion *companion __attribute__((swift_name("companion")));
+- (NSDictionary<NSString *, NSArray<SharedValkyrieLong *> *> * _Nullable)component1 __attribute__((swift_name("component1()")));
+- (NSArray<SharedValkyrieHeader *> * _Nullable)component2 __attribute__((swift_name("component2()")));
+- (NSArray<NSArray<SharedValkyrieDouble *> *> * _Nullable)component3 __attribute__((swift_name("component3()")));
+- (SharedValkyrieMajelDataResponse *)doCopyRelations:(NSDictionary<NSString *, NSArray<SharedValkyrieLong *> *> * _Nullable)relations headers:(NSArray<SharedValkyrieHeader *> * _Nullable)headers facts:(NSArray<NSArray<SharedValkyrieDouble *> *> * _Nullable)facts __attribute__((swift_name("doCopy(relations:headers:facts:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) NSArray<NSArray<SharedValkyrieDouble *> *> * _Nullable facts __attribute__((swift_name("facts")));
+@property (readonly) NSArray<SharedValkyrieHeader *> * _Nullable headers __attribute__((swift_name("headers")));
+@property (readonly) NSDictionary<NSString *, NSArray<SharedValkyrieLong *> *> * _Nullable relations __attribute__((swift_name("relations")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("MajelDataResponse.Companion")))
+@interface SharedValkyrieMajelDataResponseCompanion : SharedValkyrieBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) SharedValkyrieMajelDataResponseCompanion *shared __attribute__((swift_name("shared")));
 - (id<SharedValkyrieKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
 @end;
 
@@ -448,6 +1094,33 @@ __attribute__((swift_name("Profile.Companion")))
 @end;
 
 __attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("ProjectConfig")))
+@interface SharedValkyrieProjectConfig : SharedValkyrieBase
+- (instancetype)initWithDataVisualizations:(NSArray<SharedValkyrieDataVisualization *> * _Nullable)dataVisualizations criteria:(SharedValkyrieCriteria * _Nullable)criteria dataSources:(NSArray<SharedValkyrieDataSource *> * _Nullable)dataSources __attribute__((swift_name("init(dataVisualizations:criteria:dataSources:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) SharedValkyrieProjectConfigCompanion *companion __attribute__((swift_name("companion")));
+- (NSArray<SharedValkyrieDataVisualization *> * _Nullable)component1 __attribute__((swift_name("component1()")));
+- (SharedValkyrieCriteria * _Nullable)component2 __attribute__((swift_name("component2()")));
+- (NSArray<SharedValkyrieDataSource *> * _Nullable)component3 __attribute__((swift_name("component3()")));
+- (SharedValkyrieProjectConfig *)doCopyDataVisualizations:(NSArray<SharedValkyrieDataVisualization *> * _Nullable)dataVisualizations criteria:(SharedValkyrieCriteria * _Nullable)criteria dataSources:(NSArray<SharedValkyrieDataSource *> * _Nullable)dataSources __attribute__((swift_name("doCopy(dataVisualizations:criteria:dataSources:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) SharedValkyrieCriteria * _Nullable criteria __attribute__((swift_name("criteria")));
+@property (readonly) NSArray<SharedValkyrieDataSource *> * _Nullable dataSources __attribute__((swift_name("dataSources")));
+@property (readonly) NSArray<SharedValkyrieDataVisualization *> * _Nullable dataVisualizations __attribute__((swift_name("dataVisualizations")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("ProjectConfig.Companion")))
+@interface SharedValkyrieProjectConfigCompanion : SharedValkyrieBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) SharedValkyrieProjectConfigCompanion *shared __attribute__((swift_name("shared")));
+- (id<SharedValkyrieKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("RequestContext")))
 @interface SharedValkyrieRequestContext : SharedValkyrieBase
 - (instancetype)initWithClientIP:(NSString * _Nullable)clientIP userAgent:(NSString * _Nullable)userAgent __attribute__((swift_name("init(clientIP:userAgent:)"))) __attribute__((objc_designated_initializer));
@@ -472,6 +1145,31 @@ __attribute__((swift_name("RequestContext.Companion")))
 - (id<SharedValkyrieKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
 @end;
 
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Settings")))
+@interface SharedValkyrieSettings : SharedValkyrieBase
+- (instancetype)initWithFilterModelClassName:(NSString * _Nullable)filterModelClassName location:(NSString * _Nullable)location __attribute__((swift_name("init(filterModelClassName:location:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) SharedValkyrieSettingsCompanion *companion __attribute__((swift_name("companion")));
+- (NSString * _Nullable)component1 __attribute__((swift_name("component1()")));
+- (NSString * _Nullable)component2 __attribute__((swift_name("component2()")));
+- (SharedValkyrieSettings *)doCopyFilterModelClassName:(NSString * _Nullable)filterModelClassName location:(NSString * _Nullable)location __attribute__((swift_name("doCopy(filterModelClassName:location:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) NSString * _Nullable filterModelClassName __attribute__((swift_name("filterModelClassName")));
+@property (readonly) NSString * _Nullable location __attribute__((swift_name("location")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Settings.Companion")))
+@interface SharedValkyrieSettingsCompanion : SharedValkyrieBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) SharedValkyrieSettingsCompanion *shared __attribute__((swift_name("shared")));
+- (id<SharedValkyrieKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+@end;
+
 __attribute__((swift_name("KotlinComparable")))
 @protocol SharedValkyrieKotlinComparable
 @required
@@ -488,6 +1186,73 @@ __attribute__((swift_name("KotlinEnum")))
 - (NSString *)description __attribute__((swift_name("description()")));
 @property (readonly) NSString *name __attribute__((swift_name("name")));
 @property (readonly) int32_t ordinal __attribute__((swift_name("ordinal")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Type")))
+@interface SharedValkyrieType : SharedValkyrieKotlinEnum<SharedValkyrieType *>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
+- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+@property (class, readonly, getter=companion) SharedValkyrieTypeCompanion *companion __attribute__((swift_name("companion")));
+@property (class, readonly) SharedValkyrieType *sawxsqlexpression __attribute__((swift_name("sawxsqlexpression")));
++ (SharedValkyrieKotlinArray<SharedValkyrieType *> *)values __attribute__((swift_name("values()")));
+@property (readonly) NSString *value __attribute__((swift_name("value")));
+@end;
+
+__attribute__((swift_name("Kotlinx_serialization_coreSerializationStrategy")))
+@protocol SharedValkyrieKotlinx_serialization_coreSerializationStrategy
+@required
+- (void)serializeEncoder:(id<SharedValkyrieKotlinx_serialization_coreEncoder>)encoder value:(id _Nullable)value __attribute__((swift_name("serialize(encoder:value:)")));
+@property (readonly) id<SharedValkyrieKotlinx_serialization_coreSerialDescriptor> descriptor __attribute__((swift_name("descriptor")));
+@end;
+
+__attribute__((swift_name("Kotlinx_serialization_coreDeserializationStrategy")))
+@protocol SharedValkyrieKotlinx_serialization_coreDeserializationStrategy
+@required
+- (id _Nullable)deserializeDecoder:(id<SharedValkyrieKotlinx_serialization_coreDecoder>)decoder __attribute__((swift_name("deserialize(decoder:)")));
+@property (readonly) id<SharedValkyrieKotlinx_serialization_coreSerialDescriptor> descriptor __attribute__((swift_name("descriptor")));
+@end;
+
+__attribute__((swift_name("Kotlinx_serialization_coreKSerializer")))
+@protocol SharedValkyrieKotlinx_serialization_coreKSerializer <SharedValkyrieKotlinx_serialization_coreSerializationStrategy, SharedValkyrieKotlinx_serialization_coreDeserializationStrategy>
+@required
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Type.Companion")))
+@interface SharedValkyrieTypeCompanion : SharedValkyrieBase <SharedValkyrieKotlinx_serialization_coreKSerializer>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) SharedValkyrieTypeCompanion *shared __attribute__((swift_name("shared")));
+- (SharedValkyrieType *)deserializeDecoder:(id<SharedValkyrieKotlinx_serialization_coreDecoder>)decoder __attribute__((swift_name("deserialize(decoder:)")));
+- (void)serializeEncoder:(id<SharedValkyrieKotlinx_serialization_coreEncoder>)encoder value:(SharedValkyrieType *)value __attribute__((swift_name("serialize(encoder:value:)")));
+- (id<SharedValkyrieKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+@property (readonly) id<SharedValkyrieKotlinx_serialization_coreSerialDescriptor> descriptor __attribute__((swift_name("descriptor")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("ViewSuggestInput")))
+@interface SharedValkyrieViewSuggestInput : SharedValkyrieBase
+- (instancetype)initWithVizPluginID:(NSString * _Nullable)vizPluginID __attribute__((swift_name("init(vizPluginID:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) SharedValkyrieViewSuggestInputCompanion *companion __attribute__((swift_name("companion")));
+- (NSString * _Nullable)component1 __attribute__((swift_name("component1()")));
+- (SharedValkyrieViewSuggestInput *)doCopyVizPluginID:(NSString * _Nullable)vizPluginID __attribute__((swift_name("doCopy(vizPluginID:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) NSString * _Nullable vizPluginID __attribute__((swift_name("vizPluginID")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("ViewSuggestInput.Companion")))
+@interface SharedValkyrieViewSuggestInputCompanion : SharedValkyrieBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) SharedValkyrieViewSuggestInputCompanion *shared __attribute__((swift_name("shared")));
+- (id<SharedValkyrieKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
@@ -524,7 +1289,7 @@ __attribute__((swift_name("ApiSettings")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("OACApi")))
 @interface SharedValkyrieOACApi : SharedValkyrieBase
-- (instancetype)initWithDbHelper:(SharedValkyrieDatabaseHelper *)dbHelper log:(SharedValkyrieKermitKermit *)log __attribute__((swift_name("init(dbHelper:log:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithLog:(SharedValkyrieKermitKermit *)log __attribute__((swift_name("init(log:)"))) __attribute__((objc_designated_initializer));
 - (SharedValkyrieKtor_client_coreHttpClient *)getClient __attribute__((swift_name("getClient()")));
 @end;
 
@@ -536,6 +1301,7 @@ __attribute__((swift_name("RequestPaths")))
 + (instancetype)requestPaths __attribute__((swift_name("init()")));
 @property (class, readonly, getter=shared) SharedValkyrieRequestPaths *shared __attribute__((swift_name("shared")));
 @property (readonly) NSString *ITEM __attribute__((swift_name("ITEM")));
+@property (readonly) NSString *MAJEL_DATA __attribute__((swift_name("MAJEL_DATA")));
 @property (readonly) NSString *PROFILE __attribute__((swift_name("PROFILE")));
 @property (readonly) NSString *USAGES __attribute__((swift_name("USAGES")));
 @end;
@@ -604,23 +1370,26 @@ __attribute__((swift_name("SharedQueries")))
 - (void)deactivateAllConnections __attribute__((swift_name("deactivateAllConnections()")));
 - (void)deleteAllConnections __attribute__((swift_name("deleteAllConnections()")));
 - (void)deleteAllLogs __attribute__((swift_name("deleteAllLogs()")));
-- (void)insertConnectionLabel:(NSString * _Nullable)label host:(NSString *)host ssl:(SharedValkyrieLong * _Nullable)ssl port:(SharedValkyrieLong * _Nullable)port sso:(SharedValkyrieLong * _Nullable)sso user:(NSString * _Nullable)user id_token:(NSString * _Nullable)id_token access_token:(NSString * _Nullable)access_token refresh_token:(NSString * _Nullable)refresh_token client_id:(NSString * _Nullable)client_id secret_id:(NSString * _Nullable)secret_id properties:(NSString * _Nullable)properties active:(SharedValkyrieLong * _Nullable)active __attribute__((swift_name("insertConnection(label:host:ssl:port:sso:user:id_token:access_token:refresh_token:client_id:secret_id:properties:active:)")));
+- (SharedValkyrieRuntimeQuery<SharedValkyrieShared_connections *> *)getConnectionId:(int64_t)id __attribute__((swift_name("getConnection(id:)")));
+- (SharedValkyrieRuntimeQuery<id> *)getConnectionId:(int64_t)id mapper:(id (^)(SharedValkyrieLong *, NSString * _Nullable, NSString *, SharedValkyrieLong * _Nullable, SharedValkyrieLong * _Nullable, SharedValkyrieLong * _Nullable, NSString * _Nullable, NSString * _Nullable, NSString * _Nullable, NSString * _Nullable, NSString * _Nullable, NSString * _Nullable, NSString * _Nullable, NSString * _Nullable, SharedValkyrieLong * _Nullable))mapper __attribute__((swift_name("getConnection(id:mapper:)")));
+- (void)insertConnectionLabel:(NSString * _Nullable)label host:(NSString *)host ssl:(SharedValkyrieLong * _Nullable)ssl port:(SharedValkyrieLong * _Nullable)port sso:(SharedValkyrieLong * _Nullable)sso user:(NSString * _Nullable)user displayName:(NSString * _Nullable)displayName id_token:(NSString * _Nullable)id_token access_token:(NSString * _Nullable)access_token refresh_token:(NSString * _Nullable)refresh_token client_id:(NSString * _Nullable)client_id secret_id:(NSString * _Nullable)secret_id properties:(NSString * _Nullable)properties active:(SharedValkyrieLong * _Nullable)active __attribute__((swift_name("insertConnection(label:host:ssl:port:sso:user:displayName:id_token:access_token:refresh_token:client_id:secret_id:properties:active:)")));
 - (SharedValkyrieRuntimeQuery<SharedValkyrieShared_connections *> *)selectActiveConnection __attribute__((swift_name("selectActiveConnection()")));
-- (SharedValkyrieRuntimeQuery<id> *)selectActiveConnectionMapper:(id (^)(SharedValkyrieLong *, NSString * _Nullable, NSString *, SharedValkyrieLong * _Nullable, SharedValkyrieLong * _Nullable, SharedValkyrieLong * _Nullable, NSString * _Nullable, NSString * _Nullable, NSString * _Nullable, NSString * _Nullable, NSString * _Nullable, NSString * _Nullable, NSString * _Nullable, SharedValkyrieLong * _Nullable))mapper __attribute__((swift_name("selectActiveConnection(mapper:)")));
+- (SharedValkyrieRuntimeQuery<id> *)selectActiveConnectionMapper:(id (^)(SharedValkyrieLong *, NSString * _Nullable, NSString *, SharedValkyrieLong * _Nullable, SharedValkyrieLong * _Nullable, SharedValkyrieLong * _Nullable, NSString * _Nullable, NSString * _Nullable, NSString * _Nullable, NSString * _Nullable, NSString * _Nullable, NSString * _Nullable, NSString * _Nullable, NSString * _Nullable, SharedValkyrieLong * _Nullable))mapper __attribute__((swift_name("selectActiveConnection(mapper:)")));
 - (SharedValkyrieRuntimeQuery<SharedValkyrieShared_connections *> *)selectAllConnections __attribute__((swift_name("selectAllConnections()")));
-- (SharedValkyrieRuntimeQuery<id> *)selectAllConnectionsMapper:(id (^)(SharedValkyrieLong *, NSString * _Nullable, NSString *, SharedValkyrieLong * _Nullable, SharedValkyrieLong * _Nullable, SharedValkyrieLong * _Nullable, NSString * _Nullable, NSString * _Nullable, NSString * _Nullable, NSString * _Nullable, NSString * _Nullable, NSString * _Nullable, NSString * _Nullable, SharedValkyrieLong * _Nullable))mapper __attribute__((swift_name("selectAllConnections(mapper:)")));
+- (SharedValkyrieRuntimeQuery<id> *)selectAllConnectionsMapper:(id (^)(SharedValkyrieLong *, NSString * _Nullable, NSString *, SharedValkyrieLong * _Nullable, SharedValkyrieLong * _Nullable, SharedValkyrieLong * _Nullable, NSString * _Nullable, NSString * _Nullable, NSString * _Nullable, NSString * _Nullable, NSString * _Nullable, NSString * _Nullable, NSString * _Nullable, NSString * _Nullable, SharedValkyrieLong * _Nullable))mapper __attribute__((swift_name("selectAllConnections(mapper:)")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("Shared_connections")))
 @interface SharedValkyrieShared_connections : SharedValkyrieBase
-- (instancetype)initWithId:(int64_t)id label:(NSString * _Nullable)label host:(NSString *)host ssl:(SharedValkyrieLong * _Nullable)ssl port:(SharedValkyrieLong * _Nullable)port sso:(SharedValkyrieLong * _Nullable)sso user:(NSString * _Nullable)user id_token:(NSString * _Nullable)id_token access_token:(NSString * _Nullable)access_token refresh_token:(NSString * _Nullable)refresh_token client_id:(NSString * _Nullable)client_id secret_id:(NSString * _Nullable)secret_id properties:(NSString * _Nullable)properties active:(SharedValkyrieLong * _Nullable)active __attribute__((swift_name("init(id:label:host:ssl:port:sso:user:id_token:access_token:refresh_token:client_id:secret_id:properties:active:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithId:(int64_t)id label:(NSString * _Nullable)label host:(NSString *)host ssl:(SharedValkyrieLong * _Nullable)ssl port:(SharedValkyrieLong * _Nullable)port sso:(SharedValkyrieLong * _Nullable)sso user:(NSString * _Nullable)user displayName:(NSString * _Nullable)displayName id_token:(NSString * _Nullable)id_token access_token:(NSString * _Nullable)access_token refresh_token:(NSString * _Nullable)refresh_token client_id:(NSString * _Nullable)client_id secret_id:(NSString * _Nullable)secret_id properties:(NSString * _Nullable)properties active:(SharedValkyrieLong * _Nullable)active __attribute__((swift_name("init(id:label:host:ssl:port:sso:user:displayName:id_token:access_token:refresh_token:client_id:secret_id:properties:active:)"))) __attribute__((objc_designated_initializer));
 - (int64_t)component1 __attribute__((swift_name("component1()")));
 - (NSString * _Nullable)component10 __attribute__((swift_name("component10()")));
 - (NSString * _Nullable)component11 __attribute__((swift_name("component11()")));
 - (NSString * _Nullable)component12 __attribute__((swift_name("component12()")));
 - (NSString * _Nullable)component13 __attribute__((swift_name("component13()")));
-- (SharedValkyrieLong * _Nullable)component14 __attribute__((swift_name("component14()")));
+- (NSString * _Nullable)component14 __attribute__((swift_name("component14()")));
+- (SharedValkyrieLong * _Nullable)component15 __attribute__((swift_name("component15()")));
 - (NSString * _Nullable)component2 __attribute__((swift_name("component2()")));
 - (NSString *)component3 __attribute__((swift_name("component3()")));
 - (SharedValkyrieLong * _Nullable)component4 __attribute__((swift_name("component4()")));
@@ -629,13 +1398,14 @@ __attribute__((swift_name("Shared_connections")))
 - (NSString * _Nullable)component7 __attribute__((swift_name("component7()")));
 - (NSString * _Nullable)component8 __attribute__((swift_name("component8()")));
 - (NSString * _Nullable)component9 __attribute__((swift_name("component9()")));
-- (SharedValkyrieShared_connections *)doCopyId:(int64_t)id label:(NSString * _Nullable)label host:(NSString *)host ssl:(SharedValkyrieLong * _Nullable)ssl port:(SharedValkyrieLong * _Nullable)port sso:(SharedValkyrieLong * _Nullable)sso user:(NSString * _Nullable)user id_token:(NSString * _Nullable)id_token access_token:(NSString * _Nullable)access_token refresh_token:(NSString * _Nullable)refresh_token client_id:(NSString * _Nullable)client_id secret_id:(NSString * _Nullable)secret_id properties:(NSString * _Nullable)properties active:(SharedValkyrieLong * _Nullable)active __attribute__((swift_name("doCopy(id:label:host:ssl:port:sso:user:id_token:access_token:refresh_token:client_id:secret_id:properties:active:)")));
+- (SharedValkyrieShared_connections *)doCopyId:(int64_t)id label:(NSString * _Nullable)label host:(NSString *)host ssl:(SharedValkyrieLong * _Nullable)ssl port:(SharedValkyrieLong * _Nullable)port sso:(SharedValkyrieLong * _Nullable)sso user:(NSString * _Nullable)user displayName:(NSString * _Nullable)displayName id_token:(NSString * _Nullable)id_token access_token:(NSString * _Nullable)access_token refresh_token:(NSString * _Nullable)refresh_token client_id:(NSString * _Nullable)client_id secret_id:(NSString * _Nullable)secret_id properties:(NSString * _Nullable)properties active:(SharedValkyrieLong * _Nullable)active __attribute__((swift_name("doCopy(id:label:host:ssl:port:sso:user:displayName:id_token:access_token:refresh_token:client_id:secret_id:properties:active:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
 @property (readonly) NSString * _Nullable access_token __attribute__((swift_name("access_token")));
 @property (readonly) SharedValkyrieLong * _Nullable active __attribute__((swift_name("active")));
 @property (readonly) NSString * _Nullable client_id __attribute__((swift_name("client_id")));
+@property (readonly) NSString * _Nullable displayName __attribute__((swift_name("displayName")));
 @property (readonly) NSString *host __attribute__((swift_name("host")));
 @property (readonly) int64_t id __attribute__((swift_name("id")));
 @property (readonly) NSString * _Nullable id_token __attribute__((swift_name("id_token")));
@@ -667,6 +1437,72 @@ __attribute__((swift_name("Shared_logs")))
 @property (readonly) int64_t id __attribute__((swift_name("id")));
 @property (readonly) NSString *message __attribute__((swift_name("message")));
 @property (readonly) NSString *title __attribute__((swift_name("title")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("CatalogRepository")))
+@interface SharedValkyrieCatalogRepository : SharedValkyrieBase
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+@end;
+
+__attribute__((swift_name("Koin_coreKoinComponent")))
+@protocol SharedValkyrieKoin_coreKoinComponent
+@required
+- (SharedValkyrieKoin_coreKoin *)getKoin __attribute__((swift_name("getKoin()")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("MajelDataRepository")))
+@interface SharedValkyrieMajelDataRepository : SharedValkyrieBase <SharedValkyrieKoin_coreKoinComponent>
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)getDataMajelDataRequestJson:(NSString *)majelDataRequestJson completionHandler:(void (^)(SharedValkyrieMajelDataResponse * _Nullable_result, NSError * _Nullable))completionHandler __attribute__((swift_name("getData(majelDataRequestJson:completionHandler:)")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("UserRepository")))
+@interface SharedValkyrieUserRepository : SharedValkyrieBase <SharedValkyrieKoin_coreKoinComponent>
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (id<SharedValkyrieKotlinx_coroutines_coreFlow>)disconnect __attribute__((swift_name("disconnect()")));
+- (id<SharedValkyrieKotlinx_coroutines_coreFlow>)getActiveConnection __attribute__((swift_name("getActiveConnection()")));
+- (id<SharedValkyrieKotlinx_coroutines_coreFlow>)getItemProfilePicturePath:(NSString *)path __attribute__((swift_name("getItemProfilePicture(path:)")));
+- (id<SharedValkyrieKotlinx_coroutines_coreFlow>)getProfilePictureUsername:(NSString *)username __attribute__((swift_name("getProfilePicture(username:)")));
+- (id<SharedValkyrieKotlinx_coroutines_coreFlow>)doInitUser __attribute__((swift_name("doInitUser()")));
+- (id<SharedValkyrieKotlinx_coroutines_coreFlow>)validateUserBasic_host:(NSString *)_host username:(NSString *)username basic:(NSString *)basic source:(NSString *)source __attribute__((swift_name("validateUserBasic(_host:username:basic:source:)")));
+@end;
+
+__attribute__((swift_name("BaseViewModel")))
+@interface SharedValkyrieBaseViewModel : SharedValkyrieBase <SharedValkyrieKoin_coreKoinComponent>
+- (instancetype)initWithId:(NSString *)id __attribute__((swift_name("init(id:)"))) __attribute__((objc_designated_initializer));
+- (void)onDestroy __attribute__((swift_name("onDestroy()")));
+@property (readonly) SharedValkyrieKermitKermit *log __attribute__((swift_name("log")));
+@property (readonly) SharedValkyrieMainScope *scope __attribute__((swift_name("scope")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("DataViewModel")))
+@interface SharedValkyrieDataViewModel : SharedValkyrieBaseViewModel
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (instancetype)initWithId:(NSString *)id __attribute__((swift_name("init(id:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+- (void)backgroundSampleMajelDataRequestJson:(NSString *)majelDataRequestJson callback:(void (^)(SharedValkyrieMajelDataResponse * _Nullable, NSString * _Nullable))callback __attribute__((swift_name("backgroundSample(majelDataRequestJson:callback:)")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("UserViewModel")))
+@interface SharedValkyrieUserViewModel : SharedValkyrieBaseViewModel
+- (instancetype)initWithOnActiveConnection:(void (^)(SharedValkyrieDataState<SharedValkyrieShared_connections *> *))onActiveConnection __attribute__((swift_name("init(onActiveConnection:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithId:(NSString *)id __attribute__((swift_name("init(id:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+- (void)basicLoginHost:(NSString *)host user:(NSString *)user base64:(NSString *)base64 __attribute__((swift_name("basicLogin(host:user:base64:)")));
+- (void)disconnect __attribute__((swift_name("disconnect()")));
+- (void)setObservers __attribute__((swift_name("setObservers()")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
@@ -713,7 +1549,12 @@ __attribute__((swift_name("Koin_coreKoin")))
 @end;
 
 @interface SharedValkyrieOACApi (Extensions)
-- (id<SharedValkyrieKotlinx_coroutines_coreFlow>)getActiveConnection __attribute__((swift_name("getActiveConnection()")));
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)getDataMajelDataRequest:(SharedValkyrieMajelDataRequest *)majelDataRequest completionHandler:(void (^)(SharedValkyrieMajelDataResponse * _Nullable_result, NSError * _Nullable))completionHandler __attribute__((swift_name("getData(majelDataRequest:completionHandler:)")));
 
 /**
  @note This method converts instances of CancellationException to errors.
@@ -725,15 +1566,14 @@ __attribute__((swift_name("Koin_coreKoin")))
  @note This method converts instances of CancellationException to errors.
  Other uncaught Kotlin exceptions are fatal.
 */
-- (void)getUserProfilePictureUsername:(NSString *)username completionHandler:(void (^)(NSString * _Nullable_result, NSError * _Nullable))completionHandler __attribute__((swift_name("getUserProfilePicture(username:completionHandler:)")));
-- (void)doInitUser __attribute__((swift_name("doInitUser()")));
-- (void)recordActivityEvent:(NSString *)event artifactId:(NSString * _Nullable)artifactId artifactType:(NSString * _Nullable)artifactType dataMap:(NSDictionary<NSString *, NSString *> *)dataMap isRecent:(BOOL)isRecent userAgent:(NSString * _Nullable)userAgent callback:(void (^)(SharedValkyrieBoolean *))callback __attribute__((swift_name("recordActivity(event:artifactId:artifactType:dataMap:isRecent:userAgent:callback:)")));
+- (void)getUserProfileHost:(SharedValkyrieKtor_httpUrl *)host username:(NSString *)username basic:(NSString *)basic source:(NSString *)source completionHandler:(void (^)(SharedValkyrieProfile * _Nullable_result, NSError * _Nullable))completionHandler __attribute__((swift_name("getUserProfile(host:username:basic:source:completionHandler:)")));
 
 /**
  @note This method converts instances of CancellationException to errors.
  Other uncaught Kotlin exceptions are fatal.
 */
-- (void)validateUserBasic_host:(NSString *)_host username:(NSString *)username basic:(NSString *)basic source:(NSString *)source completionHandler:(void (^)(SharedValkyrieProfile * _Nullable_result, NSError * _Nullable))completionHandler __attribute__((swift_name("validateUserBasic(_host:username:basic:source:completionHandler:)")));
+- (void)getUserProfilePictureUsername:(NSString *)username completionHandler:(void (^)(NSString * _Nullable_result, NSError * _Nullable))completionHandler __attribute__((swift_name("getUserProfilePicture(username:completionHandler:)")));
+- (void)recordActivityEvent:(NSString *)event artifactId:(NSString * _Nullable)artifactId artifactType:(NSString * _Nullable)artifactType dataMap:(NSDictionary<NSString *, NSString *> *)dataMap isRecent:(BOOL)isRecent userAgent:(NSString * _Nullable)userAgent callback:(void (^)(SharedValkyrieBoolean *))callback __attribute__((swift_name("recordActivity(event:artifactId:artifactType:dataMap:isRecent:userAgent:callback:)")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
@@ -896,25 +1736,6 @@ __attribute__((swift_name("KermitSeverity")))
 + (SharedValkyrieKotlinArray<SharedValkyrieKermitSeverity *> *)values __attribute__((swift_name("values()")));
 @end;
 
-__attribute__((swift_name("Kotlinx_serialization_coreSerializationStrategy")))
-@protocol SharedValkyrieKotlinx_serialization_coreSerializationStrategy
-@required
-- (void)serializeEncoder:(id<SharedValkyrieKotlinx_serialization_coreEncoder>)encoder value:(id _Nullable)value __attribute__((swift_name("serialize(encoder:value:)")));
-@property (readonly) id<SharedValkyrieKotlinx_serialization_coreSerialDescriptor> descriptor __attribute__((swift_name("descriptor")));
-@end;
-
-__attribute__((swift_name("Kotlinx_serialization_coreDeserializationStrategy")))
-@protocol SharedValkyrieKotlinx_serialization_coreDeserializationStrategy
-@required
-- (id _Nullable)deserializeDecoder:(id<SharedValkyrieKotlinx_serialization_coreDecoder>)decoder __attribute__((swift_name("deserialize(decoder:)")));
-@property (readonly) id<SharedValkyrieKotlinx_serialization_coreSerialDescriptor> descriptor __attribute__((swift_name("descriptor")));
-@end;
-
-__attribute__((swift_name("Kotlinx_serialization_coreKSerializer")))
-@protocol SharedValkyrieKotlinx_serialization_coreKSerializer <SharedValkyrieKotlinx_serialization_coreSerializationStrategy, SharedValkyrieKotlinx_serialization_coreDeserializationStrategy>
-@required
-@end;
-
 __attribute__((swift_name("Kotlinx_serialization_jsonJsonElement")))
 @interface SharedValkyrieKotlinx_serialization_jsonJsonElement : SharedValkyrieBase
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
@@ -941,6 +1762,67 @@ __attribute__((swift_name("KotlinArray")))
 - (id<SharedValkyrieKotlinIterator>)iterator __attribute__((swift_name("iterator()")));
 - (void)setIndex:(int32_t)index value:(T _Nullable)value __attribute__((swift_name("set(index:value:)")));
 @property (readonly) int32_t size __attribute__((swift_name("size")));
+@end;
+
+__attribute__((swift_name("Kotlinx_serialization_coreEncoder")))
+@protocol SharedValkyrieKotlinx_serialization_coreEncoder
+@required
+- (id<SharedValkyrieKotlinx_serialization_coreCompositeEncoder>)beginCollectionDescriptor:(id<SharedValkyrieKotlinx_serialization_coreSerialDescriptor>)descriptor collectionSize:(int32_t)collectionSize __attribute__((swift_name("beginCollection(descriptor:collectionSize:)")));
+- (id<SharedValkyrieKotlinx_serialization_coreCompositeEncoder>)beginStructureDescriptor:(id<SharedValkyrieKotlinx_serialization_coreSerialDescriptor>)descriptor __attribute__((swift_name("beginStructure(descriptor:)")));
+- (void)encodeBooleanValue:(BOOL)value __attribute__((swift_name("encodeBoolean(value:)")));
+- (void)encodeByteValue:(int8_t)value __attribute__((swift_name("encodeByte(value:)")));
+- (void)encodeCharValue:(unichar)value __attribute__((swift_name("encodeChar(value:)")));
+- (void)encodeDoubleValue:(double)value __attribute__((swift_name("encodeDouble(value:)")));
+- (void)encodeEnumEnumDescriptor:(id<SharedValkyrieKotlinx_serialization_coreSerialDescriptor>)enumDescriptor index:(int32_t)index __attribute__((swift_name("encodeEnum(enumDescriptor:index:)")));
+- (void)encodeFloatValue:(float)value __attribute__((swift_name("encodeFloat(value:)")));
+- (id<SharedValkyrieKotlinx_serialization_coreEncoder>)encodeInlineInlineDescriptor:(id<SharedValkyrieKotlinx_serialization_coreSerialDescriptor>)inlineDescriptor __attribute__((swift_name("encodeInline(inlineDescriptor:)")));
+- (void)encodeIntValue:(int32_t)value __attribute__((swift_name("encodeInt(value:)")));
+- (void)encodeLongValue:(int64_t)value __attribute__((swift_name("encodeLong(value:)")));
+- (void)encodeNotNullMark __attribute__((swift_name("encodeNotNullMark()")));
+- (void)encodeNull __attribute__((swift_name("encodeNull()")));
+- (void)encodeNullableSerializableValueSerializer:(id<SharedValkyrieKotlinx_serialization_coreSerializationStrategy>)serializer value:(id _Nullable)value __attribute__((swift_name("encodeNullableSerializableValue(serializer:value:)")));
+- (void)encodeSerializableValueSerializer:(id<SharedValkyrieKotlinx_serialization_coreSerializationStrategy>)serializer value:(id _Nullable)value __attribute__((swift_name("encodeSerializableValue(serializer:value:)")));
+- (void)encodeShortValue:(int16_t)value __attribute__((swift_name("encodeShort(value:)")));
+- (void)encodeStringValue:(NSString *)value __attribute__((swift_name("encodeString(value:)")));
+@property (readonly) SharedValkyrieKotlinx_serialization_coreSerializersModule *serializersModule __attribute__((swift_name("serializersModule")));
+@end;
+
+__attribute__((swift_name("Kotlinx_serialization_coreSerialDescriptor")))
+@protocol SharedValkyrieKotlinx_serialization_coreSerialDescriptor
+@required
+- (NSArray<id<SharedValkyrieKotlinAnnotation>> *)getElementAnnotationsIndex:(int32_t)index __attribute__((swift_name("getElementAnnotations(index:)")));
+- (id<SharedValkyrieKotlinx_serialization_coreSerialDescriptor>)getElementDescriptorIndex:(int32_t)index __attribute__((swift_name("getElementDescriptor(index:)")));
+- (int32_t)getElementIndexName:(NSString *)name __attribute__((swift_name("getElementIndex(name:)")));
+- (NSString *)getElementNameIndex:(int32_t)index __attribute__((swift_name("getElementName(index:)")));
+- (BOOL)isElementOptionalIndex:(int32_t)index __attribute__((swift_name("isElementOptional(index:)")));
+@property (readonly) NSArray<id<SharedValkyrieKotlinAnnotation>> *annotations __attribute__((swift_name("annotations")));
+@property (readonly) int32_t elementsCount __attribute__((swift_name("elementsCount")));
+@property (readonly) BOOL isInline __attribute__((swift_name("isInline")));
+@property (readonly) BOOL isNullable __attribute__((swift_name("isNullable")));
+@property (readonly) SharedValkyrieKotlinx_serialization_coreSerialKind *kind __attribute__((swift_name("kind")));
+@property (readonly) NSString *serialName __attribute__((swift_name("serialName")));
+@end;
+
+__attribute__((swift_name("Kotlinx_serialization_coreDecoder")))
+@protocol SharedValkyrieKotlinx_serialization_coreDecoder
+@required
+- (id<SharedValkyrieKotlinx_serialization_coreCompositeDecoder>)beginStructureDescriptor:(id<SharedValkyrieKotlinx_serialization_coreSerialDescriptor>)descriptor __attribute__((swift_name("beginStructure(descriptor:)")));
+- (BOOL)decodeBoolean __attribute__((swift_name("decodeBoolean()")));
+- (int8_t)decodeByte __attribute__((swift_name("decodeByte()")));
+- (unichar)decodeChar __attribute__((swift_name("decodeChar()")));
+- (double)decodeDouble __attribute__((swift_name("decodeDouble()")));
+- (int32_t)decodeEnumEnumDescriptor:(id<SharedValkyrieKotlinx_serialization_coreSerialDescriptor>)enumDescriptor __attribute__((swift_name("decodeEnum(enumDescriptor:)")));
+- (float)decodeFloat __attribute__((swift_name("decodeFloat()")));
+- (id<SharedValkyrieKotlinx_serialization_coreDecoder>)decodeInlineInlineDescriptor:(id<SharedValkyrieKotlinx_serialization_coreSerialDescriptor>)inlineDescriptor __attribute__((swift_name("decodeInline(inlineDescriptor:)")));
+- (int32_t)decodeInt __attribute__((swift_name("decodeInt()")));
+- (int64_t)decodeLong __attribute__((swift_name("decodeLong()")));
+- (BOOL)decodeNotNullMark __attribute__((swift_name("decodeNotNullMark()")));
+- (SharedValkyrieKotlinNothing * _Nullable)decodeNull __attribute__((swift_name("decodeNull()")));
+- (id _Nullable)decodeNullableSerializableValueDeserializer:(id<SharedValkyrieKotlinx_serialization_coreDeserializationStrategy>)deserializer __attribute__((swift_name("decodeNullableSerializableValue(deserializer:)")));
+- (id _Nullable)decodeSerializableValueDeserializer:(id<SharedValkyrieKotlinx_serialization_coreDeserializationStrategy>)deserializer __attribute__((swift_name("decodeSerializableValue(deserializer:)")));
+- (int16_t)decodeShort __attribute__((swift_name("decodeShort()")));
+- (NSString *)decodeString __attribute__((swift_name("decodeString()")));
+@property (readonly) SharedValkyrieKotlinx_serialization_coreSerializersModule *serializersModule __attribute__((swift_name("serializersModule")));
 @end;
 
 __attribute__((swift_name("Ktor_ioCloseable")))
@@ -1104,12 +1986,6 @@ __attribute__((swift_name("Koin_coreScope")))
 @property (readonly) id<SharedValkyrieKoin_coreQualifier> scopeQualifier __attribute__((swift_name("scopeQualifier")));
 @end;
 
-__attribute__((swift_name("Koin_coreKoinComponent")))
-@protocol SharedValkyrieKoin_coreKoinComponent
-@required
-- (SharedValkyrieKoin_coreKoin *)getKoin __attribute__((swift_name("getKoin()")));
-@end;
-
 __attribute__((swift_name("Koin_coreKoinScopeComponent")))
 @protocol SharedValkyrieKoin_coreKoinScopeComponent <SharedValkyrieKoin_coreKoinComponent>
 @required
@@ -1247,6 +2123,36 @@ __attribute__((swift_name("Koin_coreScopeRegistry")))
 @end;
 
 __attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_httpUrl")))
+@interface SharedValkyrieKtor_httpUrl : SharedValkyrieBase
+- (instancetype)initWithProtocol:(SharedValkyrieKtor_httpURLProtocol *)protocol host:(NSString *)host specifiedPort:(int32_t)specifiedPort encodedPath:(NSString *)encodedPath parameters:(id<SharedValkyrieKtor_httpParameters>)parameters fragment:(NSString *)fragment user:(NSString * _Nullable)user password:(NSString * _Nullable)password trailingQuery:(BOOL)trailingQuery __attribute__((swift_name("init(protocol:host:specifiedPort:encodedPath:parameters:fragment:user:password:trailingQuery:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) SharedValkyrieKtor_httpUrlCompanion *companion __attribute__((swift_name("companion")));
+- (SharedValkyrieKtor_httpURLProtocol *)component1 __attribute__((swift_name("component1()")));
+- (NSString *)component2 __attribute__((swift_name("component2()")));
+- (int32_t)component3 __attribute__((swift_name("component3()")));
+- (NSString *)component4 __attribute__((swift_name("component4()")));
+- (id<SharedValkyrieKtor_httpParameters>)component5 __attribute__((swift_name("component5()")));
+- (NSString *)component6 __attribute__((swift_name("component6()")));
+- (NSString * _Nullable)component7 __attribute__((swift_name("component7()")));
+- (NSString * _Nullable)component8 __attribute__((swift_name("component8()")));
+- (BOOL)component9 __attribute__((swift_name("component9()")));
+- (SharedValkyrieKtor_httpUrl *)doCopyProtocol:(SharedValkyrieKtor_httpURLProtocol *)protocol host:(NSString *)host specifiedPort:(int32_t)specifiedPort encodedPath:(NSString *)encodedPath parameters:(id<SharedValkyrieKtor_httpParameters>)parameters fragment:(NSString *)fragment user:(NSString * _Nullable)user password:(NSString * _Nullable)password trailingQuery:(BOOL)trailingQuery __attribute__((swift_name("doCopy(protocol:host:specifiedPort:encodedPath:parameters:fragment:user:password:trailingQuery:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) NSString *encodedPath __attribute__((swift_name("encodedPath")));
+@property (readonly) NSString *fragment __attribute__((swift_name("fragment")));
+@property (readonly) NSString *host __attribute__((swift_name("host")));
+@property (readonly) id<SharedValkyrieKtor_httpParameters> parameters __attribute__((swift_name("parameters")));
+@property (readonly) NSString * _Nullable password __attribute__((swift_name("password")));
+@property (readonly) int32_t port __attribute__((swift_name("port")));
+@property (readonly) SharedValkyrieKtor_httpURLProtocol *protocol __attribute__((swift_name("protocol")));
+@property (readonly) int32_t specifiedPort __attribute__((swift_name("specifiedPort")));
+@property (readonly) BOOL trailingQuery __attribute__((swift_name("trailingQuery")));
+@property (readonly) NSString * _Nullable user __attribute__((swift_name("user")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("Koin_coreKoinApplication")))
 @interface SharedValkyrieKoin_coreKoinApplication : SharedValkyrieBase
 @property (class, readonly, getter=companion) SharedValkyrieKoin_coreKoinApplicationCompanion *companion __attribute__((swift_name("companion")));
@@ -1268,67 +2174,6 @@ __attribute__((swift_name("KotlinCoroutineContextKey")))
 @required
 @end;
 
-__attribute__((swift_name("Kotlinx_serialization_coreEncoder")))
-@protocol SharedValkyrieKotlinx_serialization_coreEncoder
-@required
-- (id<SharedValkyrieKotlinx_serialization_coreCompositeEncoder>)beginCollectionDescriptor:(id<SharedValkyrieKotlinx_serialization_coreSerialDescriptor>)descriptor collectionSize:(int32_t)collectionSize __attribute__((swift_name("beginCollection(descriptor:collectionSize:)")));
-- (id<SharedValkyrieKotlinx_serialization_coreCompositeEncoder>)beginStructureDescriptor:(id<SharedValkyrieKotlinx_serialization_coreSerialDescriptor>)descriptor __attribute__((swift_name("beginStructure(descriptor:)")));
-- (void)encodeBooleanValue:(BOOL)value __attribute__((swift_name("encodeBoolean(value:)")));
-- (void)encodeByteValue:(int8_t)value __attribute__((swift_name("encodeByte(value:)")));
-- (void)encodeCharValue:(unichar)value __attribute__((swift_name("encodeChar(value:)")));
-- (void)encodeDoubleValue:(double)value __attribute__((swift_name("encodeDouble(value:)")));
-- (void)encodeEnumEnumDescriptor:(id<SharedValkyrieKotlinx_serialization_coreSerialDescriptor>)enumDescriptor index:(int32_t)index __attribute__((swift_name("encodeEnum(enumDescriptor:index:)")));
-- (void)encodeFloatValue:(float)value __attribute__((swift_name("encodeFloat(value:)")));
-- (id<SharedValkyrieKotlinx_serialization_coreEncoder>)encodeInlineInlineDescriptor:(id<SharedValkyrieKotlinx_serialization_coreSerialDescriptor>)inlineDescriptor __attribute__((swift_name("encodeInline(inlineDescriptor:)")));
-- (void)encodeIntValue:(int32_t)value __attribute__((swift_name("encodeInt(value:)")));
-- (void)encodeLongValue:(int64_t)value __attribute__((swift_name("encodeLong(value:)")));
-- (void)encodeNotNullMark __attribute__((swift_name("encodeNotNullMark()")));
-- (void)encodeNull __attribute__((swift_name("encodeNull()")));
-- (void)encodeNullableSerializableValueSerializer:(id<SharedValkyrieKotlinx_serialization_coreSerializationStrategy>)serializer value:(id _Nullable)value __attribute__((swift_name("encodeNullableSerializableValue(serializer:value:)")));
-- (void)encodeSerializableValueSerializer:(id<SharedValkyrieKotlinx_serialization_coreSerializationStrategy>)serializer value:(id _Nullable)value __attribute__((swift_name("encodeSerializableValue(serializer:value:)")));
-- (void)encodeShortValue:(int16_t)value __attribute__((swift_name("encodeShort(value:)")));
-- (void)encodeStringValue:(NSString *)value __attribute__((swift_name("encodeString(value:)")));
-@property (readonly) SharedValkyrieKotlinx_serialization_coreSerializersModule *serializersModule __attribute__((swift_name("serializersModule")));
-@end;
-
-__attribute__((swift_name("Kotlinx_serialization_coreSerialDescriptor")))
-@protocol SharedValkyrieKotlinx_serialization_coreSerialDescriptor
-@required
-- (NSArray<id<SharedValkyrieKotlinAnnotation>> *)getElementAnnotationsIndex:(int32_t)index __attribute__((swift_name("getElementAnnotations(index:)")));
-- (id<SharedValkyrieKotlinx_serialization_coreSerialDescriptor>)getElementDescriptorIndex:(int32_t)index __attribute__((swift_name("getElementDescriptor(index:)")));
-- (int32_t)getElementIndexName:(NSString *)name __attribute__((swift_name("getElementIndex(name:)")));
-- (NSString *)getElementNameIndex:(int32_t)index __attribute__((swift_name("getElementName(index:)")));
-- (BOOL)isElementOptionalIndex:(int32_t)index __attribute__((swift_name("isElementOptional(index:)")));
-@property (readonly) NSArray<id<SharedValkyrieKotlinAnnotation>> *annotations __attribute__((swift_name("annotations")));
-@property (readonly) int32_t elementsCount __attribute__((swift_name("elementsCount")));
-@property (readonly) BOOL isInline __attribute__((swift_name("isInline")));
-@property (readonly) BOOL isNullable __attribute__((swift_name("isNullable")));
-@property (readonly) SharedValkyrieKotlinx_serialization_coreSerialKind *kind __attribute__((swift_name("kind")));
-@property (readonly) NSString *serialName __attribute__((swift_name("serialName")));
-@end;
-
-__attribute__((swift_name("Kotlinx_serialization_coreDecoder")))
-@protocol SharedValkyrieKotlinx_serialization_coreDecoder
-@required
-- (id<SharedValkyrieKotlinx_serialization_coreCompositeDecoder>)beginStructureDescriptor:(id<SharedValkyrieKotlinx_serialization_coreSerialDescriptor>)descriptor __attribute__((swift_name("beginStructure(descriptor:)")));
-- (BOOL)decodeBoolean __attribute__((swift_name("decodeBoolean()")));
-- (int8_t)decodeByte __attribute__((swift_name("decodeByte()")));
-- (unichar)decodeChar __attribute__((swift_name("decodeChar()")));
-- (double)decodeDouble __attribute__((swift_name("decodeDouble()")));
-- (int32_t)decodeEnumEnumDescriptor:(id<SharedValkyrieKotlinx_serialization_coreSerialDescriptor>)enumDescriptor __attribute__((swift_name("decodeEnum(enumDescriptor:)")));
-- (float)decodeFloat __attribute__((swift_name("decodeFloat()")));
-- (id<SharedValkyrieKotlinx_serialization_coreDecoder>)decodeInlineInlineDescriptor:(id<SharedValkyrieKotlinx_serialization_coreSerialDescriptor>)inlineDescriptor __attribute__((swift_name("decodeInline(inlineDescriptor:)")));
-- (int32_t)decodeInt __attribute__((swift_name("decodeInt()")));
-- (int64_t)decodeLong __attribute__((swift_name("decodeLong()")));
-- (BOOL)decodeNotNullMark __attribute__((swift_name("decodeNotNullMark()")));
-- (SharedValkyrieKotlinNothing * _Nullable)decodeNull __attribute__((swift_name("decodeNull()")));
-- (id _Nullable)decodeNullableSerializableValueDeserializer:(id<SharedValkyrieKotlinx_serialization_coreDeserializationStrategy>)deserializer __attribute__((swift_name("decodeNullableSerializableValue(deserializer:)")));
-- (id _Nullable)decodeSerializableValueDeserializer:(id<SharedValkyrieKotlinx_serialization_coreDeserializationStrategy>)deserializer __attribute__((swift_name("decodeSerializableValue(deserializer:)")));
-- (int16_t)decodeShort __attribute__((swift_name("decodeShort()")));
-- (NSString *)decodeString __attribute__((swift_name("decodeString()")));
-@property (readonly) SharedValkyrieKotlinx_serialization_coreSerializersModule *serializersModule __attribute__((swift_name("serializersModule")));
-@end;
-
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("Kotlinx_serialization_jsonJsonElement.Companion")))
 @interface SharedValkyrieKotlinx_serialization_jsonJsonElementCompanion : SharedValkyrieBase
@@ -1344,6 +2189,76 @@ __attribute__((swift_name("KotlinIterator")))
 @required
 - (BOOL)hasNext __attribute__((swift_name("hasNext()")));
 - (id _Nullable)next __attribute__((swift_name("next()")));
+@end;
+
+__attribute__((swift_name("Kotlinx_serialization_coreCompositeEncoder")))
+@protocol SharedValkyrieKotlinx_serialization_coreCompositeEncoder
+@required
+- (void)encodeBooleanElementDescriptor:(id<SharedValkyrieKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index value:(BOOL)value __attribute__((swift_name("encodeBooleanElement(descriptor:index:value:)")));
+- (void)encodeByteElementDescriptor:(id<SharedValkyrieKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index value:(int8_t)value __attribute__((swift_name("encodeByteElement(descriptor:index:value:)")));
+- (void)encodeCharElementDescriptor:(id<SharedValkyrieKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index value:(unichar)value __attribute__((swift_name("encodeCharElement(descriptor:index:value:)")));
+- (void)encodeDoubleElementDescriptor:(id<SharedValkyrieKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index value:(double)value __attribute__((swift_name("encodeDoubleElement(descriptor:index:value:)")));
+- (void)encodeFloatElementDescriptor:(id<SharedValkyrieKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index value:(float)value __attribute__((swift_name("encodeFloatElement(descriptor:index:value:)")));
+- (id<SharedValkyrieKotlinx_serialization_coreEncoder>)encodeInlineElementDescriptor:(id<SharedValkyrieKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index __attribute__((swift_name("encodeInlineElement(descriptor:index:)")));
+- (void)encodeIntElementDescriptor:(id<SharedValkyrieKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index value:(int32_t)value __attribute__((swift_name("encodeIntElement(descriptor:index:value:)")));
+- (void)encodeLongElementDescriptor:(id<SharedValkyrieKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index value:(int64_t)value __attribute__((swift_name("encodeLongElement(descriptor:index:value:)")));
+- (void)encodeNullableSerializableElementDescriptor:(id<SharedValkyrieKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index serializer:(id<SharedValkyrieKotlinx_serialization_coreSerializationStrategy>)serializer value:(id _Nullable)value __attribute__((swift_name("encodeNullableSerializableElement(descriptor:index:serializer:value:)")));
+- (void)encodeSerializableElementDescriptor:(id<SharedValkyrieKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index serializer:(id<SharedValkyrieKotlinx_serialization_coreSerializationStrategy>)serializer value:(id _Nullable)value __attribute__((swift_name("encodeSerializableElement(descriptor:index:serializer:value:)")));
+- (void)encodeShortElementDescriptor:(id<SharedValkyrieKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index value:(int16_t)value __attribute__((swift_name("encodeShortElement(descriptor:index:value:)")));
+- (void)encodeStringElementDescriptor:(id<SharedValkyrieKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index value:(NSString *)value __attribute__((swift_name("encodeStringElement(descriptor:index:value:)")));
+- (void)endStructureDescriptor:(id<SharedValkyrieKotlinx_serialization_coreSerialDescriptor>)descriptor __attribute__((swift_name("endStructure(descriptor:)")));
+- (BOOL)shouldEncodeElementDefaultDescriptor:(id<SharedValkyrieKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index __attribute__((swift_name("shouldEncodeElementDefault(descriptor:index:)")));
+@property (readonly) SharedValkyrieKotlinx_serialization_coreSerializersModule *serializersModule __attribute__((swift_name("serializersModule")));
+@end;
+
+__attribute__((swift_name("Kotlinx_serialization_coreSerializersModule")))
+@interface SharedValkyrieKotlinx_serialization_coreSerializersModule : SharedValkyrieBase
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (void)dumpToCollector:(id<SharedValkyrieKotlinx_serialization_coreSerializersModuleCollector>)collector __attribute__((swift_name("dumpTo(collector:)")));
+- (id<SharedValkyrieKotlinx_serialization_coreKSerializer> _Nullable)getContextualKClass:(id<SharedValkyrieKotlinKClass>)kClass typeArgumentsSerializers:(NSArray<id<SharedValkyrieKotlinx_serialization_coreKSerializer>> *)typeArgumentsSerializers __attribute__((swift_name("getContextual(kClass:typeArgumentsSerializers:)")));
+- (id<SharedValkyrieKotlinx_serialization_coreSerializationStrategy> _Nullable)getPolymorphicBaseClass:(id<SharedValkyrieKotlinKClass>)baseClass value:(id)value __attribute__((swift_name("getPolymorphic(baseClass:value:)")));
+- (id<SharedValkyrieKotlinx_serialization_coreDeserializationStrategy> _Nullable)getPolymorphicBaseClass:(id<SharedValkyrieKotlinKClass>)baseClass serializedClassName:(NSString * _Nullable)serializedClassName __attribute__((swift_name("getPolymorphic(baseClass:serializedClassName:)")));
+@end;
+
+__attribute__((swift_name("KotlinAnnotation")))
+@protocol SharedValkyrieKotlinAnnotation
+@required
+@end;
+
+__attribute__((swift_name("Kotlinx_serialization_coreSerialKind")))
+@interface SharedValkyrieKotlinx_serialization_coreSerialKind : SharedValkyrieBase
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@end;
+
+__attribute__((swift_name("Kotlinx_serialization_coreCompositeDecoder")))
+@protocol SharedValkyrieKotlinx_serialization_coreCompositeDecoder
+@required
+- (BOOL)decodeBooleanElementDescriptor:(id<SharedValkyrieKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index __attribute__((swift_name("decodeBooleanElement(descriptor:index:)")));
+- (int8_t)decodeByteElementDescriptor:(id<SharedValkyrieKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index __attribute__((swift_name("decodeByteElement(descriptor:index:)")));
+- (unichar)decodeCharElementDescriptor:(id<SharedValkyrieKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index __attribute__((swift_name("decodeCharElement(descriptor:index:)")));
+- (int32_t)decodeCollectionSizeDescriptor:(id<SharedValkyrieKotlinx_serialization_coreSerialDescriptor>)descriptor __attribute__((swift_name("decodeCollectionSize(descriptor:)")));
+- (double)decodeDoubleElementDescriptor:(id<SharedValkyrieKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index __attribute__((swift_name("decodeDoubleElement(descriptor:index:)")));
+- (int32_t)decodeElementIndexDescriptor:(id<SharedValkyrieKotlinx_serialization_coreSerialDescriptor>)descriptor __attribute__((swift_name("decodeElementIndex(descriptor:)")));
+- (float)decodeFloatElementDescriptor:(id<SharedValkyrieKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index __attribute__((swift_name("decodeFloatElement(descriptor:index:)")));
+- (id<SharedValkyrieKotlinx_serialization_coreDecoder>)decodeInlineElementDescriptor:(id<SharedValkyrieKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index __attribute__((swift_name("decodeInlineElement(descriptor:index:)")));
+- (int32_t)decodeIntElementDescriptor:(id<SharedValkyrieKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index __attribute__((swift_name("decodeIntElement(descriptor:index:)")));
+- (int64_t)decodeLongElementDescriptor:(id<SharedValkyrieKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index __attribute__((swift_name("decodeLongElement(descriptor:index:)")));
+- (id _Nullable)decodeNullableSerializableElementDescriptor:(id<SharedValkyrieKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index deserializer:(id<SharedValkyrieKotlinx_serialization_coreDeserializationStrategy>)deserializer previousValue:(id _Nullable)previousValue __attribute__((swift_name("decodeNullableSerializableElement(descriptor:index:deserializer:previousValue:)")));
+- (BOOL)decodeSequentially __attribute__((swift_name("decodeSequentially()")));
+- (id _Nullable)decodeSerializableElementDescriptor:(id<SharedValkyrieKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index deserializer:(id<SharedValkyrieKotlinx_serialization_coreDeserializationStrategy>)deserializer previousValue:(id _Nullable)previousValue __attribute__((swift_name("decodeSerializableElement(descriptor:index:deserializer:previousValue:)")));
+- (int16_t)decodeShortElementDescriptor:(id<SharedValkyrieKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index __attribute__((swift_name("decodeShortElement(descriptor:index:)")));
+- (NSString *)decodeStringElementDescriptor:(id<SharedValkyrieKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index __attribute__((swift_name("decodeStringElement(descriptor:index:)")));
+- (void)endStructureDescriptor:(id<SharedValkyrieKotlinx_serialization_coreSerialDescriptor>)descriptor __attribute__((swift_name("endStructure(descriptor:)")));
+@property (readonly) SharedValkyrieKotlinx_serialization_coreSerializersModule *serializersModule __attribute__((swift_name("serializersModule")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("KotlinNothing")))
+@interface SharedValkyrieKotlinNothing : SharedValkyrieBase
 @end;
 
 __attribute__((swift_name("Ktor_client_coreHttpClientEngine")))
@@ -1676,6 +2591,50 @@ __attribute__((swift_name("Koin_coreScopeRegistry.Companion")))
 @end;
 
 __attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_httpURLProtocol")))
+@interface SharedValkyrieKtor_httpURLProtocol : SharedValkyrieBase
+- (instancetype)initWithName:(NSString *)name defaultPort:(int32_t)defaultPort __attribute__((swift_name("init(name:defaultPort:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) SharedValkyrieKtor_httpURLProtocolCompanion *companion __attribute__((swift_name("companion")));
+- (NSString *)component1 __attribute__((swift_name("component1()")));
+- (int32_t)component2 __attribute__((swift_name("component2()")));
+- (SharedValkyrieKtor_httpURLProtocol *)doCopyName:(NSString *)name defaultPort:(int32_t)defaultPort __attribute__((swift_name("doCopy(name:defaultPort:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) int32_t defaultPort __attribute__((swift_name("defaultPort")));
+@property (readonly) NSString *name __attribute__((swift_name("name")));
+@end;
+
+__attribute__((swift_name("Ktor_utilsStringValues")))
+@protocol SharedValkyrieKtor_utilsStringValues
+@required
+- (BOOL)containsName:(NSString *)name __attribute__((swift_name("contains(name:)")));
+- (BOOL)containsName:(NSString *)name value:(NSString *)value __attribute__((swift_name("contains(name:value:)")));
+- (NSSet<id<SharedValkyrieKotlinMapEntry>> *)entries __attribute__((swift_name("entries()")));
+- (void)forEachBody:(void (^)(NSString *, NSArray<NSString *> *))body __attribute__((swift_name("forEach(body:)")));
+- (NSString * _Nullable)getName:(NSString *)name __attribute__((swift_name("get(name:)")));
+- (NSArray<NSString *> * _Nullable)getAllName:(NSString *)name __attribute__((swift_name("getAll(name:)")));
+- (BOOL)isEmpty_ __attribute__((swift_name("isEmpty()")));
+- (NSSet<NSString *> *)names __attribute__((swift_name("names()")));
+@property (readonly) BOOL caseInsensitiveName __attribute__((swift_name("caseInsensitiveName")));
+@end;
+
+__attribute__((swift_name("Ktor_httpParameters")))
+@protocol SharedValkyrieKtor_httpParameters <SharedValkyrieKtor_utilsStringValues>
+@required
+@property (readonly) SharedValkyrieKtor_httpUrlEncodingOption *urlEncodingOption __attribute__((swift_name("urlEncodingOption")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_httpUrl.Companion")))
+@interface SharedValkyrieKtor_httpUrlCompanion : SharedValkyrieBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) SharedValkyrieKtor_httpUrlCompanion *shared __attribute__((swift_name("shared")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("Koin_coreKoinApplication.Companion")))
 @interface SharedValkyrieKoin_coreKoinApplicationCompanion : SharedValkyrieBase
 + (instancetype)alloc __attribute__((unavailable));
@@ -1685,74 +2644,13 @@ __attribute__((swift_name("Koin_coreKoinApplication.Companion")))
 - (SharedValkyrieKoin_coreKoinApplication *)doInit __attribute__((swift_name("doInit()")));
 @end;
 
-__attribute__((swift_name("Kotlinx_serialization_coreCompositeEncoder")))
-@protocol SharedValkyrieKotlinx_serialization_coreCompositeEncoder
+__attribute__((swift_name("Kotlinx_serialization_coreSerializersModuleCollector")))
+@protocol SharedValkyrieKotlinx_serialization_coreSerializersModuleCollector
 @required
-- (void)encodeBooleanElementDescriptor:(id<SharedValkyrieKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index value:(BOOL)value __attribute__((swift_name("encodeBooleanElement(descriptor:index:value:)")));
-- (void)encodeByteElementDescriptor:(id<SharedValkyrieKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index value:(int8_t)value __attribute__((swift_name("encodeByteElement(descriptor:index:value:)")));
-- (void)encodeCharElementDescriptor:(id<SharedValkyrieKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index value:(unichar)value __attribute__((swift_name("encodeCharElement(descriptor:index:value:)")));
-- (void)encodeDoubleElementDescriptor:(id<SharedValkyrieKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index value:(double)value __attribute__((swift_name("encodeDoubleElement(descriptor:index:value:)")));
-- (void)encodeFloatElementDescriptor:(id<SharedValkyrieKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index value:(float)value __attribute__((swift_name("encodeFloatElement(descriptor:index:value:)")));
-- (id<SharedValkyrieKotlinx_serialization_coreEncoder>)encodeInlineElementDescriptor:(id<SharedValkyrieKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index __attribute__((swift_name("encodeInlineElement(descriptor:index:)")));
-- (void)encodeIntElementDescriptor:(id<SharedValkyrieKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index value:(int32_t)value __attribute__((swift_name("encodeIntElement(descriptor:index:value:)")));
-- (void)encodeLongElementDescriptor:(id<SharedValkyrieKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index value:(int64_t)value __attribute__((swift_name("encodeLongElement(descriptor:index:value:)")));
-- (void)encodeNullableSerializableElementDescriptor:(id<SharedValkyrieKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index serializer:(id<SharedValkyrieKotlinx_serialization_coreSerializationStrategy>)serializer value:(id _Nullable)value __attribute__((swift_name("encodeNullableSerializableElement(descriptor:index:serializer:value:)")));
-- (void)encodeSerializableElementDescriptor:(id<SharedValkyrieKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index serializer:(id<SharedValkyrieKotlinx_serialization_coreSerializationStrategy>)serializer value:(id _Nullable)value __attribute__((swift_name("encodeSerializableElement(descriptor:index:serializer:value:)")));
-- (void)encodeShortElementDescriptor:(id<SharedValkyrieKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index value:(int16_t)value __attribute__((swift_name("encodeShortElement(descriptor:index:value:)")));
-- (void)encodeStringElementDescriptor:(id<SharedValkyrieKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index value:(NSString *)value __attribute__((swift_name("encodeStringElement(descriptor:index:value:)")));
-- (void)endStructureDescriptor:(id<SharedValkyrieKotlinx_serialization_coreSerialDescriptor>)descriptor __attribute__((swift_name("endStructure(descriptor:)")));
-- (BOOL)shouldEncodeElementDefaultDescriptor:(id<SharedValkyrieKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index __attribute__((swift_name("shouldEncodeElementDefault(descriptor:index:)")));
-@property (readonly) SharedValkyrieKotlinx_serialization_coreSerializersModule *serializersModule __attribute__((swift_name("serializersModule")));
-@end;
-
-__attribute__((swift_name("Kotlinx_serialization_coreSerializersModule")))
-@interface SharedValkyrieKotlinx_serialization_coreSerializersModule : SharedValkyrieBase
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (void)dumpToCollector:(id<SharedValkyrieKotlinx_serialization_coreSerializersModuleCollector>)collector __attribute__((swift_name("dumpTo(collector:)")));
-- (id<SharedValkyrieKotlinx_serialization_coreKSerializer> _Nullable)getContextualKClass:(id<SharedValkyrieKotlinKClass>)kClass typeArgumentsSerializers:(NSArray<id<SharedValkyrieKotlinx_serialization_coreKSerializer>> *)typeArgumentsSerializers __attribute__((swift_name("getContextual(kClass:typeArgumentsSerializers:)")));
-- (id<SharedValkyrieKotlinx_serialization_coreSerializationStrategy> _Nullable)getPolymorphicBaseClass:(id<SharedValkyrieKotlinKClass>)baseClass value:(id)value __attribute__((swift_name("getPolymorphic(baseClass:value:)")));
-- (id<SharedValkyrieKotlinx_serialization_coreDeserializationStrategy> _Nullable)getPolymorphicBaseClass:(id<SharedValkyrieKotlinKClass>)baseClass serializedClassName:(NSString * _Nullable)serializedClassName __attribute__((swift_name("getPolymorphic(baseClass:serializedClassName:)")));
-@end;
-
-__attribute__((swift_name("KotlinAnnotation")))
-@protocol SharedValkyrieKotlinAnnotation
-@required
-@end;
-
-__attribute__((swift_name("Kotlinx_serialization_coreSerialKind")))
-@interface SharedValkyrieKotlinx_serialization_coreSerialKind : SharedValkyrieBase
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@end;
-
-__attribute__((swift_name("Kotlinx_serialization_coreCompositeDecoder")))
-@protocol SharedValkyrieKotlinx_serialization_coreCompositeDecoder
-@required
-- (BOOL)decodeBooleanElementDescriptor:(id<SharedValkyrieKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index __attribute__((swift_name("decodeBooleanElement(descriptor:index:)")));
-- (int8_t)decodeByteElementDescriptor:(id<SharedValkyrieKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index __attribute__((swift_name("decodeByteElement(descriptor:index:)")));
-- (unichar)decodeCharElementDescriptor:(id<SharedValkyrieKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index __attribute__((swift_name("decodeCharElement(descriptor:index:)")));
-- (int32_t)decodeCollectionSizeDescriptor:(id<SharedValkyrieKotlinx_serialization_coreSerialDescriptor>)descriptor __attribute__((swift_name("decodeCollectionSize(descriptor:)")));
-- (double)decodeDoubleElementDescriptor:(id<SharedValkyrieKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index __attribute__((swift_name("decodeDoubleElement(descriptor:index:)")));
-- (int32_t)decodeElementIndexDescriptor:(id<SharedValkyrieKotlinx_serialization_coreSerialDescriptor>)descriptor __attribute__((swift_name("decodeElementIndex(descriptor:)")));
-- (float)decodeFloatElementDescriptor:(id<SharedValkyrieKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index __attribute__((swift_name("decodeFloatElement(descriptor:index:)")));
-- (id<SharedValkyrieKotlinx_serialization_coreDecoder>)decodeInlineElementDescriptor:(id<SharedValkyrieKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index __attribute__((swift_name("decodeInlineElement(descriptor:index:)")));
-- (int32_t)decodeIntElementDescriptor:(id<SharedValkyrieKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index __attribute__((swift_name("decodeIntElement(descriptor:index:)")));
-- (int64_t)decodeLongElementDescriptor:(id<SharedValkyrieKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index __attribute__((swift_name("decodeLongElement(descriptor:index:)")));
-- (id _Nullable)decodeNullableSerializableElementDescriptor:(id<SharedValkyrieKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index deserializer:(id<SharedValkyrieKotlinx_serialization_coreDeserializationStrategy>)deserializer previousValue:(id _Nullable)previousValue __attribute__((swift_name("decodeNullableSerializableElement(descriptor:index:deserializer:previousValue:)")));
-- (BOOL)decodeSequentially __attribute__((swift_name("decodeSequentially()")));
-- (id _Nullable)decodeSerializableElementDescriptor:(id<SharedValkyrieKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index deserializer:(id<SharedValkyrieKotlinx_serialization_coreDeserializationStrategy>)deserializer previousValue:(id _Nullable)previousValue __attribute__((swift_name("decodeSerializableElement(descriptor:index:deserializer:previousValue:)")));
-- (int16_t)decodeShortElementDescriptor:(id<SharedValkyrieKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index __attribute__((swift_name("decodeShortElement(descriptor:index:)")));
-- (NSString *)decodeStringElementDescriptor:(id<SharedValkyrieKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index __attribute__((swift_name("decodeStringElement(descriptor:index:)")));
-- (void)endStructureDescriptor:(id<SharedValkyrieKotlinx_serialization_coreSerialDescriptor>)descriptor __attribute__((swift_name("endStructure(descriptor:)")));
-@property (readonly) SharedValkyrieKotlinx_serialization_coreSerializersModule *serializersModule __attribute__((swift_name("serializersModule")));
-@end;
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("KotlinNothing")))
-@interface SharedValkyrieKotlinNothing : SharedValkyrieBase
+- (void)contextualKClass:(id<SharedValkyrieKotlinKClass>)kClass provider:(id<SharedValkyrieKotlinx_serialization_coreKSerializer> (^)(NSArray<id<SharedValkyrieKotlinx_serialization_coreKSerializer>> *))provider __attribute__((swift_name("contextual(kClass:provider:)")));
+- (void)contextualKClass:(id<SharedValkyrieKotlinKClass>)kClass serializer:(id<SharedValkyrieKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("contextual(kClass:serializer:)")));
+- (void)polymorphicBaseClass:(id<SharedValkyrieKotlinKClass>)baseClass actualClass:(id<SharedValkyrieKotlinKClass>)actualClass actualSerializer:(id<SharedValkyrieKotlinx_serialization_coreKSerializer>)actualSerializer __attribute__((swift_name("polymorphic(baseClass:actualClass:actualSerializer:)")));
+- (void)polymorphicDefaultBaseClass:(id<SharedValkyrieKotlinKClass>)baseClass defaultSerializerProvider:(id<SharedValkyrieKotlinx_serialization_coreDeserializationStrategy> _Nullable (^)(NSString * _Nullable))defaultSerializerProvider __attribute__((swift_name("polymorphicDefault(baseClass:defaultSerializerProvider:)")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
@@ -2268,57 +3166,40 @@ __attribute__((swift_name("Koin_coreInstanceContext")))
 @property (readonly) SharedValkyrieKoin_coreScope *scope __attribute__((swift_name("scope")));
 @end;
 
-__attribute__((swift_name("Kotlinx_serialization_coreSerializersModuleCollector")))
-@protocol SharedValkyrieKotlinx_serialization_coreSerializersModuleCollector
-@required
-- (void)contextualKClass:(id<SharedValkyrieKotlinKClass>)kClass provider:(id<SharedValkyrieKotlinx_serialization_coreKSerializer> (^)(NSArray<id<SharedValkyrieKotlinx_serialization_coreKSerializer>> *))provider __attribute__((swift_name("contextual(kClass:provider:)")));
-- (void)contextualKClass:(id<SharedValkyrieKotlinKClass>)kClass serializer:(id<SharedValkyrieKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("contextual(kClass:serializer:)")));
-- (void)polymorphicBaseClass:(id<SharedValkyrieKotlinKClass>)baseClass actualClass:(id<SharedValkyrieKotlinKClass>)actualClass actualSerializer:(id<SharedValkyrieKotlinx_serialization_coreKSerializer>)actualSerializer __attribute__((swift_name("polymorphic(baseClass:actualClass:actualSerializer:)")));
-- (void)polymorphicDefaultBaseClass:(id<SharedValkyrieKotlinKClass>)baseClass defaultSerializerProvider:(id<SharedValkyrieKotlinx_serialization_coreDeserializationStrategy> _Nullable (^)(NSString * _Nullable))defaultSerializerProvider __attribute__((swift_name("polymorphicDefault(baseClass:defaultSerializerProvider:)")));
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_httpURLProtocol.Companion")))
+@interface SharedValkyrieKtor_httpURLProtocolCompanion : SharedValkyrieBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) SharedValkyrieKtor_httpURLProtocolCompanion *shared __attribute__((swift_name("shared")));
+- (SharedValkyrieKtor_httpURLProtocol *)createOrDefaultName:(NSString *)name __attribute__((swift_name("createOrDefault(name:)")));
+@property (readonly) SharedValkyrieKtor_httpURLProtocol *HTTP __attribute__((swift_name("HTTP")));
+@property (readonly) SharedValkyrieKtor_httpURLProtocol *HTTPS __attribute__((swift_name("HTTPS")));
+@property (readonly) SharedValkyrieKtor_httpURLProtocol *SOCKS __attribute__((swift_name("SOCKS")));
+@property (readonly) SharedValkyrieKtor_httpURLProtocol *WS __attribute__((swift_name("WS")));
+@property (readonly) SharedValkyrieKtor_httpURLProtocol *WSS __attribute__((swift_name("WSS")));
+@property (readonly) NSDictionary<NSString *, SharedValkyrieKtor_httpURLProtocol *> *byName __attribute__((swift_name("byName")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Ktor_httpUrl")))
-@interface SharedValkyrieKtor_httpUrl : SharedValkyrieBase
-- (instancetype)initWithProtocol:(SharedValkyrieKtor_httpURLProtocol *)protocol host:(NSString *)host specifiedPort:(int32_t)specifiedPort encodedPath:(NSString *)encodedPath parameters:(id<SharedValkyrieKtor_httpParameters>)parameters fragment:(NSString *)fragment user:(NSString * _Nullable)user password:(NSString * _Nullable)password trailingQuery:(BOOL)trailingQuery __attribute__((swift_name("init(protocol:host:specifiedPort:encodedPath:parameters:fragment:user:password:trailingQuery:)"))) __attribute__((objc_designated_initializer));
-@property (class, readonly, getter=companion) SharedValkyrieKtor_httpUrlCompanion *companion __attribute__((swift_name("companion")));
-- (SharedValkyrieKtor_httpURLProtocol *)component1 __attribute__((swift_name("component1()")));
-- (NSString *)component2 __attribute__((swift_name("component2()")));
-- (int32_t)component3 __attribute__((swift_name("component3()")));
-- (NSString *)component4 __attribute__((swift_name("component4()")));
-- (id<SharedValkyrieKtor_httpParameters>)component5 __attribute__((swift_name("component5()")));
-- (NSString *)component6 __attribute__((swift_name("component6()")));
-- (NSString * _Nullable)component7 __attribute__((swift_name("component7()")));
-- (NSString * _Nullable)component8 __attribute__((swift_name("component8()")));
-- (BOOL)component9 __attribute__((swift_name("component9()")));
-- (SharedValkyrieKtor_httpUrl *)doCopyProtocol:(SharedValkyrieKtor_httpURLProtocol *)protocol host:(NSString *)host specifiedPort:(int32_t)specifiedPort encodedPath:(NSString *)encodedPath parameters:(id<SharedValkyrieKtor_httpParameters>)parameters fragment:(NSString *)fragment user:(NSString * _Nullable)user password:(NSString * _Nullable)password trailingQuery:(BOOL)trailingQuery __attribute__((swift_name("doCopy(protocol:host:specifiedPort:encodedPath:parameters:fragment:user:password:trailingQuery:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) NSString *encodedPath __attribute__((swift_name("encodedPath")));
-@property (readonly) NSString *fragment __attribute__((swift_name("fragment")));
-@property (readonly) NSString *host __attribute__((swift_name("host")));
-@property (readonly) id<SharedValkyrieKtor_httpParameters> parameters __attribute__((swift_name("parameters")));
-@property (readonly) NSString * _Nullable password __attribute__((swift_name("password")));
-@property (readonly) int32_t port __attribute__((swift_name("port")));
-@property (readonly) SharedValkyrieKtor_httpURLProtocol *protocol __attribute__((swift_name("protocol")));
-@property (readonly) int32_t specifiedPort __attribute__((swift_name("specifiedPort")));
-@property (readonly) BOOL trailingQuery __attribute__((swift_name("trailingQuery")));
-@property (readonly) NSString * _Nullable user __attribute__((swift_name("user")));
+__attribute__((swift_name("Ktor_httpUrlEncodingOption")))
+@interface SharedValkyrieKtor_httpUrlEncodingOption : SharedValkyrieKotlinEnum<SharedValkyrieKtor_httpUrlEncodingOption *>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
+- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+@property (class, readonly) SharedValkyrieKtor_httpUrlEncodingOption *default_ __attribute__((swift_name("default_")));
+@property (class, readonly) SharedValkyrieKtor_httpUrlEncodingOption *keyOnly __attribute__((swift_name("keyOnly")));
+@property (class, readonly) SharedValkyrieKtor_httpUrlEncodingOption *valueOnly __attribute__((swift_name("valueOnly")));
+@property (class, readonly) SharedValkyrieKtor_httpUrlEncodingOption *noEncoding __attribute__((swift_name("noEncoding")));
++ (SharedValkyrieKotlinArray<SharedValkyrieKtor_httpUrlEncodingOption *> *)values __attribute__((swift_name("values()")));
 @end;
 
-__attribute__((swift_name("Ktor_utilsStringValues")))
-@protocol SharedValkyrieKtor_utilsStringValues
+__attribute__((swift_name("KotlinMapEntry")))
+@protocol SharedValkyrieKotlinMapEntry
 @required
-- (BOOL)containsName:(NSString *)name __attribute__((swift_name("contains(name:)")));
-- (BOOL)containsName:(NSString *)name value:(NSString *)value __attribute__((swift_name("contains(name:value:)")));
-- (NSSet<id<SharedValkyrieKotlinMapEntry>> *)entries __attribute__((swift_name("entries()")));
-- (void)forEachBody:(void (^)(NSString *, NSArray<NSString *> *))body __attribute__((swift_name("forEach(body:)")));
-- (NSString * _Nullable)getName:(NSString *)name __attribute__((swift_name("get(name:)")));
-- (NSArray<NSString *> * _Nullable)getAllName:(NSString *)name __attribute__((swift_name("getAll(name:)")));
-- (BOOL)isEmpty_ __attribute__((swift_name("isEmpty()")));
-- (NSSet<NSString *> *)names __attribute__((swift_name("names()")));
-@property (readonly) BOOL caseInsensitiveName __attribute__((swift_name("caseInsensitiveName")));
+@property (readonly) id _Nullable key __attribute__((swift_name("key")));
+@property (readonly) id _Nullable value __attribute__((swift_name("value")));
 @end;
 
 __attribute__((swift_name("Ktor_httpHeaders")))
@@ -2397,28 +3278,6 @@ __attribute__((swift_name("Ktor_httpHttpProtocolVersion")))
 - (NSString *)description __attribute__((swift_name("description()")));
 @property (readonly) int32_t major __attribute__((swift_name("major")));
 @property (readonly) int32_t minor __attribute__((swift_name("minor")));
-@property (readonly) NSString *name __attribute__((swift_name("name")));
-@end;
-
-__attribute__((swift_name("KotlinMapEntry")))
-@protocol SharedValkyrieKotlinMapEntry
-@required
-@property (readonly) id _Nullable key __attribute__((swift_name("key")));
-@property (readonly) id _Nullable value __attribute__((swift_name("value")));
-@end;
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Ktor_httpURLProtocol")))
-@interface SharedValkyrieKtor_httpURLProtocol : SharedValkyrieBase
-- (instancetype)initWithName:(NSString *)name defaultPort:(int32_t)defaultPort __attribute__((swift_name("init(name:defaultPort:)"))) __attribute__((objc_designated_initializer));
-@property (class, readonly, getter=companion) SharedValkyrieKtor_httpURLProtocolCompanion *companion __attribute__((swift_name("companion")));
-- (NSString *)component1 __attribute__((swift_name("component1()")));
-- (int32_t)component2 __attribute__((swift_name("component2()")));
-- (SharedValkyrieKtor_httpURLProtocol *)doCopyName:(NSString *)name defaultPort:(int32_t)defaultPort __attribute__((swift_name("doCopy(name:defaultPort:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) int32_t defaultPort __attribute__((swift_name("defaultPort")));
 @property (readonly) NSString *name __attribute__((swift_name("name")));
 @end;
 
@@ -2737,21 +3596,6 @@ __attribute__((swift_name("Koin_coreCallbacks")))
 @property (readonly) void (^ _Nullable onClose)(T _Nullable) __attribute__((swift_name("onClose")));
 @end;
 
-__attribute__((swift_name("Ktor_httpParameters")))
-@protocol SharedValkyrieKtor_httpParameters <SharedValkyrieKtor_utilsStringValues>
-@required
-@property (readonly) SharedValkyrieKtor_httpUrlEncodingOption *urlEncodingOption __attribute__((swift_name("urlEncodingOption")));
-@end;
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Ktor_httpUrl.Companion")))
-@interface SharedValkyrieKtor_httpUrlCompanion : SharedValkyrieBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) SharedValkyrieKtor_httpUrlCompanion *shared __attribute__((swift_name("shared")));
-@end;
-
 __attribute__((swift_name("Ktor_httpHeaderValueWithParameters")))
 @interface SharedValkyrieKtor_httpHeaderValueWithParameters : SharedValkyrieBase
 - (instancetype)initWithContent:(NSString *)content parameters:(NSArray<SharedValkyrieKtor_httpHeaderValueParam *> *)parameters __attribute__((swift_name("init(content:parameters:)"))) __attribute__((objc_designated_initializer));
@@ -2906,35 +3750,6 @@ __attribute__((swift_name("Ktor_httpHttpProtocolVersion.Companion")))
 @property (readonly) SharedValkyrieKtor_httpHttpProtocolVersion *HTTP_2_0 __attribute__((swift_name("HTTP_2_0")));
 @property (readonly) SharedValkyrieKtor_httpHttpProtocolVersion *QUIC __attribute__((swift_name("QUIC")));
 @property (readonly) SharedValkyrieKtor_httpHttpProtocolVersion *SPDY_3 __attribute__((swift_name("SPDY_3")));
-@end;
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Ktor_httpURLProtocol.Companion")))
-@interface SharedValkyrieKtor_httpURLProtocolCompanion : SharedValkyrieBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) SharedValkyrieKtor_httpURLProtocolCompanion *shared __attribute__((swift_name("shared")));
-- (SharedValkyrieKtor_httpURLProtocol *)createOrDefaultName:(NSString *)name __attribute__((swift_name("createOrDefault(name:)")));
-@property (readonly) SharedValkyrieKtor_httpURLProtocol *HTTP __attribute__((swift_name("HTTP")));
-@property (readonly) SharedValkyrieKtor_httpURLProtocol *HTTPS __attribute__((swift_name("HTTPS")));
-@property (readonly) SharedValkyrieKtor_httpURLProtocol *SOCKS __attribute__((swift_name("SOCKS")));
-@property (readonly) SharedValkyrieKtor_httpURLProtocol *WS __attribute__((swift_name("WS")));
-@property (readonly) SharedValkyrieKtor_httpURLProtocol *WSS __attribute__((swift_name("WSS")));
-@property (readonly) NSDictionary<NSString *, SharedValkyrieKtor_httpURLProtocol *> *byName __attribute__((swift_name("byName")));
-@end;
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Ktor_httpUrlEncodingOption")))
-@interface SharedValkyrieKtor_httpUrlEncodingOption : SharedValkyrieKotlinEnum<SharedValkyrieKtor_httpUrlEncodingOption *>
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-@property (class, readonly) SharedValkyrieKtor_httpUrlEncodingOption *default_ __attribute__((swift_name("default_")));
-@property (class, readonly) SharedValkyrieKtor_httpUrlEncodingOption *keyOnly __attribute__((swift_name("keyOnly")));
-@property (class, readonly) SharedValkyrieKtor_httpUrlEncodingOption *valueOnly __attribute__((swift_name("valueOnly")));
-@property (class, readonly) SharedValkyrieKtor_httpUrlEncodingOption *noEncoding __attribute__((swift_name("noEncoding")));
-+ (SharedValkyrieKotlinArray<SharedValkyrieKtor_httpUrlEncodingOption *> *)values __attribute__((swift_name("values()")));
 @end;
 
 __attribute__((swift_name("Kotlinx_coroutines_coreParentJob")))
