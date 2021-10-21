@@ -1483,6 +1483,7 @@ __attribute__((swift_name("BaseViewModel")))
 - (instancetype)initWithId:(NSString *)id __attribute__((swift_name("init(id:)"))) __attribute__((objc_designated_initializer));
 - (void)onDestroy __attribute__((swift_name("onDestroy()")));
 @property (readonly) SharedValkyrieKermitKermit *log __attribute__((swift_name("log")));
+@property (readonly) SharedValkyrieMainScope *otherScope __attribute__((swift_name("otherScope")));
 @property (readonly) SharedValkyrieMainScope *scope __attribute__((swift_name("scope")));
 @end;
 
@@ -1502,7 +1503,6 @@ __attribute__((swift_name("UserViewModel")))
 - (instancetype)initWithId:(NSString *)id __attribute__((swift_name("init(id:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
 - (void)basicLoginHost:(NSString *)host user:(NSString *)user base64:(NSString *)base64 __attribute__((swift_name("basicLogin(host:user:base64:)")));
 - (void)disconnect __attribute__((swift_name("disconnect()")));
-- (void)setObservers __attribute__((swift_name("setObservers()")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
