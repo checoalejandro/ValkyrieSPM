@@ -1462,7 +1462,7 @@ __attribute__((swift_name("MajelDataRepository")))
  @note This method converts instances of CancellationException to errors.
  Other uncaught Kotlin exceptions are fatal.
 */
-- (void)getDataMajelDataRequestJson:(NSString *)majelDataRequestJson completionHandler:(void (^)(SharedValkyrieMajelDataResponse * _Nullable_result, NSError * _Nullable))completionHandler __attribute__((swift_name("getData(majelDataRequestJson:completionHandler:)")));
+- (void)getDataMajelDataRequestJson:(NSString *)majelDataRequestJson completionHandler:(void (^)(id<SharedValkyrieKotlinx_coroutines_coreFlow> _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("getData(majelDataRequestJson:completionHandler:)")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
@@ -1493,7 +1493,7 @@ __attribute__((swift_name("DataViewModel")))
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
 + (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
 - (instancetype)initWithId:(NSString *)id __attribute__((swift_name("init(id:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-- (void)backgroundSampleMajelDataRequestJson:(NSString *)majelDataRequestJson callback:(void (^)(SharedValkyrieMajelDataResponse * _Nullable, NSString * _Nullable))callback __attribute__((swift_name("backgroundSample(majelDataRequestJson:callback:)")));
+- (void)backgroundSampleMajelDataRequestJson:(NSString *)majelDataRequestJson callback:(void (^)(SharedValkyrieDataState<SharedValkyrieMajelDataResponse *> *))callback __attribute__((swift_name("backgroundSample(majelDataRequestJson:callback:)")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
